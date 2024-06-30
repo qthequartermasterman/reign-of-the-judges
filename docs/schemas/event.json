@@ -1,0 +1,99 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "event.json",
+    "title": "Event",
+    "description": "An event in the scriptures.",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "The unique identifier of the event.",
+            "type": "string",
+            "format": "uuid"
+        },
+        "name": {
+            "description": "The name of the event.",
+            "type": "string"
+        },
+        "description": {
+            "description": "A description of the event.",
+            "type": "string"
+        },
+        "sources": {
+            "description": "The sources that describe the event.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "required": true
+        },
+        "date": {
+            "description": "The date of the event.",
+            "type": "object",
+            "properties": {
+                "year": {
+                    "description": "The year of the event.",
+                    "type": "integer"
+                },
+                "month": {
+                    "description": "The month of the event.",
+                    "type": "integer"
+                },
+                "day": {
+                    "description": "The day of the event.",
+                    "type": "integer"
+                },
+                "calendar_system": {
+                    "description": "The calendar system of the date.",
+                    "type": "string",
+                    "enum": ["reign-of-the-judges", "after-lehi", "after-christ"]
+                },
+                "miscellaneous": {
+                    "description": "Any additional information about the date.",
+                    "type": "string"
+                }
+            }
+        },
+        "location": {
+            "description": "The location of the event.",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "The name of the location.",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "A description of the location.",
+                    "type": "string"
+                }
+            }
+        },
+        "participants": {
+            "description": "The participants in the event.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "relative_events": {
+            "description": "Events that this event is definitely after or before.",
+            "type": "object",
+            "properties": {
+                "before": {
+                    "description": "Events that this event is definitely before.",
+                    "type": "array",
+                    "items": {
+                        "#ref": "event.json"
+                    }
+                },
+                "after": {
+                    "description": "Events that this event is definitely after.",
+                    "type": "array",
+                    "items": {
+                        "#ref": "event.json"
+                    }
+                }
+            }
+        }
+        
+    }
+}
