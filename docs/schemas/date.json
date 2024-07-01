@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "date.json",
+    "title": "Date",
+    "description": "A date in the Book of Mormon",
+    "type": "object",
+    "properties": {
+        "year": {
+            "description": "The year of the event.",
+            "type": "integer"
+        },
+        "month": {
+            "description": "The month of the event.",
+            "type": "integer"
+        },
+        "day": {
+            "description": "The day of the event.",
+            "type": "integer"
+        },
+        "calendar_system": {
+            "description": "The calendar system of the date.",
+            "type": "string",
+            "enum": ["reign-of-the-judges", "after-lehi", "after-christ"]
+        },
+        "miscellaneous": {
+            "description": "Any additional information about the date.",
+            "type": "string"
+        }
+    }
+}

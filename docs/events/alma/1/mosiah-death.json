@@ -1,0 +1,17 @@
+{
+    "description": "King Mosiah dies.",
+    "name": "King Mosiah's Death",
+    "sources": [
+        "Mosiah 29:46", "Alma 1:1"
+    ],
+    "date": {
+        "year": 1,
+        "calendar_system": "reign-of-the-judges"
+    },
+    "location": {
+        "name": "Zarahemla"
+    },
+    "participants": [
+        "King Mosiah"
+    ]
+}

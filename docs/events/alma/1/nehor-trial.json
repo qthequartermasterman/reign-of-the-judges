@@ -1,0 +1,18 @@
+{
+    "name": "Nehor brought before Alma",
+    "date": {
+        "year": 1,
+        "calendar_system": "reign-of-the-judges"
+    },
+    "description": "Nehor is brought before Alma to be judged for priestcraft and murder.",
+    "sources": [
+        "Alma 1:2", "Alma 1:10-14"
+    ],
+    "location": {
+        "name": "Zarahemla"
+    },
+    "participants": [
+        "Nehor", "Alma"
+    ],
+
+}

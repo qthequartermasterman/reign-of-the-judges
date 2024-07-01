@@ -1,0 +1,23 @@
+{
+    "name": "Nehor contends with Gideon",
+    "description": "Nehor contends with Gideon, murdering him with the sword.",
+    "date": {
+        "year": 1,
+        "calendar_system": "reign-of-the-judges"
+    },
+    "location": {
+        "name": "Zarahemla"
+    },
+    "participants": [
+        "Nehor",
+        "Gideon"
+    ],
+    "relative_events": {
+        "before": [
+            {
+                "$ref": "./nehor-trial.json"
+            }
+        ]
+    },
+    "sources": ["Alma 1:7-9"]
+}

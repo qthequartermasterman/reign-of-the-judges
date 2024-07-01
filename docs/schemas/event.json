@@ -1,5 +1,5 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "event.json",
     "title": "Event",
     "description": "An event in the scriptures.",
@@ -23,35 +23,15 @@
             "type": "array",
             "items": {
                 "type": "string"
-            },
-            "required": true
+            }
         },
         "date": {
-            "description": "The date of the event.",
-            "type": "object",
-            "properties": {
-                "year": {
-                    "description": "The year of the event.",
-                    "type": "integer"
-                },
-                "month": {
-                    "description": "The month of the event.",
-                    "type": "integer"
-                },
-                "day": {
-                    "description": "The day of the event.",
-                    "type": "integer"
-                },
-                "calendar_system": {
-                    "description": "The calendar system of the date.",
-                    "type": "string",
-                    "enum": ["reign-of-the-judges", "after-lehi", "after-christ"]
-                },
-                "miscellaneous": {
-                    "description": "Any additional information about the date.",
-                    "type": "string"
-                }
-            }
+            "description": "The date of the event, if it occurred at a specific time, or the date of the event's beginning, if it was a period of time.",
+            "$ref": "date.json"
+        },
+        "end_date": {
+            "description": "The date of the event's end, if it was a period of time.",
+            "$ref": "date.json"
         },
         "location": {
             "description": "The location of the event.",

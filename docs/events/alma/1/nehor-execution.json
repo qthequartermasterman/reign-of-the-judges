@@ -1,0 +1,9 @@
+{
+    "name": "Nehor executed.",
+    "description": "Nehor confesses his priestcraft and suffers an ignominious death.",
+    "date": {"calendar_system": "reign-of-the-judges", "year":1},
+    "location": {"name": "Hill Manti"},
+    "sources": ["Alma 1:15"],
+    "participants": ["Nehor"],
+    "relative_events": {"after": [{"$ref": "./nehor-trial.json"}]}
+}
