@@ -480,7 +480,7 @@ markdown_extensions:
   #- pymdownx.arithmex:
   #- pymdownx.b64:
   #- pymdownx.betterem:
-  #- pymdownx.caret:
+  - pymdownx.caret:
   #- pymdownx.critic:
   #- pymdownx.details:
   #- pymdownx.emoji:
@@ -500,4 +500,4 @@ markdown_extensions:
   #- pymdownx.superfences:
   #- pymdownx.tabbed:
   #- pymdownx.tasklist:
-  #- pymdownx.tilde:
+  - pymdownx.tilde:

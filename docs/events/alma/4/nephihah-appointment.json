@@ -1,0 +1,12 @@
+{
+  "name": "Nephihah's Appointment",
+  "description": "Nephihah is appointed chief judge. Alma \"gave him power according to the voice of the people\" to \"judge and govern\".",
+  "sources": ["Alma 4:15-17"],
+  "date": {
+    "year": 9,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": "commencement"
+  },
+  "location": { "description": "Zarahemla" },
+  "participants": ["Nephihah", "Alma"]
+}
