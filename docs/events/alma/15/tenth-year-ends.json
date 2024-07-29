@@ -1,0 +1,10 @@
+{
+  "name": "Tenth Year Ends",
+  "description": "The tenth year of the reign of the judges over the people of Nephi ends.",
+  "sources": ["Alma 15:19"],
+  "date": {
+    "calendar_system": "reign-of-the-judges",
+    "year": 10,
+    "miscellaneous": "end"
+  }
+}

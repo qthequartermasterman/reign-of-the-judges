@@ -1,0 +1,14 @@
+{
+    "name": "Alma Departs for Melek",
+    "description": "Alma departs from the land of Zarahemla and takes his journey over into the land of Melek, on the west of the river Sidon, on the west by the borders of the wilderness.",
+    "sources": ["Alma 8:3"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 10
+    },
+    "participants": ["Alma"],
+    "location": {
+        "name": "Land of Melek",
+        "description": "On the west of the river Sidon, on the west by the borders of the wilderness."
+    }
+}
