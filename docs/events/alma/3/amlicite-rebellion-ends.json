@@ -1,0 +1,14 @@
+{
+    "name": "Amlicite Rebellion Ends",
+    "description": "\"Thousands and tens of thousands of souls sent to the eternal world, that they might reap their rewards according to their works, whether they were good or whether they were bad\"",
+    "sources": ["Alma 3:25"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5,
+        "miscellaneous": "end"
+    },
+    "participants": ["Nephites", "Amlicites", "Lamanites"],
+    "relative_events": {
+        "after": ["docs/events/alma/3/second-battle-of-hill-amnihu.json"]
+    }
+}

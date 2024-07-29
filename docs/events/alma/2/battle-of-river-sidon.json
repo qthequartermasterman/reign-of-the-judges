@@ -1,0 +1,17 @@
+{
+    "name": "Battle of River Sidon",
+    "description": "Lamanite and Amlicite troops (\"numerous as the sands of the sea\") descend upon Nephite forces as they cross the River Sidon. Alma and Amlici contend face to face with the sword. Alma cries to the Lord for mercy. They prevail against the Lamanites. Many die while fleeing, and their bones heap upon the earth.",
+    "sources": ["Alma 2:28-38"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Alma", "Amlici", "Amlicites", "Lamanites", "Nephites"],
+    "relative_events": {
+        "after": ["docs/events/alma/2/spying-on-amlicite-camp.json"]
+    },
+    "location": {
+        "name": "River Sidon"
+    }
+    
+}

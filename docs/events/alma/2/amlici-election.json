@@ -1,0 +1,14 @@
+{
+    "name": "Amlici's Electoral Defeat",
+    "description": "Amlici fails to gain the voice of the people and is not made king over the people.",
+    "sources": ["Alma 2:3-7"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Amlici"],
+    "location":{ "name": "Though out the land" },
+    "relative_events": {
+        "after": ["docs/events/alma/2/amlici-appears.json"]
+    }
+}

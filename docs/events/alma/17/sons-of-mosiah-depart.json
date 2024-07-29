@@ -1,0 +1,13 @@
+{
+  "name": "Sons of Mosiah Depart to Preach to the Lamanites",
+  "description": "The sons of Mosiah depart to preach to the Lamanites.",
+  "sources": ["Alma 17:1-2"],
+  "date": {
+    "calendar_system": "reign-of-the-judges",
+    "year": 1
+  },
+  "location": {
+    "name": "Zarahemla"
+  },
+  "participants": ["Ammon", "Aaron", "Omner", "Himni"]
+}

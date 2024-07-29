@@ -1,0 +1,17 @@
+{
+    "name": "Second Battle of Hill Amnihu",
+    "description": "Nephites drive Amlicites and Lamanites out of the land of Zarahemla one final time. The Amlicite Rebellion effectively ends.",
+    "sources": ["Alma 3:20-24"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Nephites", "Amlicites", "Lamanites"],
+    "relative_events": {
+        "after": ["docs/events/alma/3/nephites-bury-dead.json"]
+    },
+    "location": {
+        "name": "Hill Amnihu"
+    }
+    
+}

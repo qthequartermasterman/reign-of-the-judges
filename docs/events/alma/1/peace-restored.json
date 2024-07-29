@@ -1,0 +1,10 @@
+{
+    "name": "Peace Restored",
+    "description": "By exercising the law upon the people, peace is restored among the people of Nephi.",
+    "sources": ["Alma 1:33"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Alma", "Nephihah"]
+}

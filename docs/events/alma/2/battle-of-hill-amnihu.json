@@ -1,0 +1,16 @@
+{
+    "name": "Battle of Hill Amnihu",
+    "description": "The Nephites, led by Alma, prevail, but experience great losses. 12,532 Amlicites die. 6,562 Nephites die. Nephites pursue the Amlicites, but stop in the Valley of Gideon and pitch tents.",
+    "sources": ["Alma 2:15-20"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Alma", "Amlici", "Amlicites", "Nephites"],
+    "relative_events": {
+        "after": ["docs/events/alma/2/amlicite-rebellion.json"]
+    },
+    "location": {
+        "name": "Hill Amnihu"
+    }
+}

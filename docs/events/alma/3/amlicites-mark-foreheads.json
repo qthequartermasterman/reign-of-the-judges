@@ -1,0 +1,13 @@
+{
+    "name": "Amlicites mark their foreheads",
+    "description": "Amlicites mark their heads with red, fulfilling prophecy",
+    "sources": ["Alma 3:4-19"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Amlicites"],
+    "relative_events": {
+        "after": ["docs/events/alma/3/nephites-bury-dead.json"]
+    }
+}

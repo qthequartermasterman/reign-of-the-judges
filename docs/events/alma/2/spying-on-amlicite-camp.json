@@ -1,0 +1,16 @@
+{
+    "name": "Spying on Amlicite Camp",
+    "description": "Zeram, and Amnor, and Manti, and Limher sent as Nephite spies to analyze the Amlicite Camp, in the land of Minon (above Zarahemla, in the land of Nephi). Lamanite forces join Amlicite forces.",
+    "sources": ["Alma 2:20-28"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Zeram", "Amnor", "Manti", "Limher", "Amlicites", "Lamanites"],
+    "location": {
+        "name": "Land of Minon"
+    },
+    "relative_events": {
+        "after": ["docs/events/alma/2/battle-of-hill-amnihu.json"]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Amlicite Rebellion Begins",
+    "description": "The Amlicites rebel against the Nephites and seek to establish a king. The Amlicite rebellion begins. The amlicites consecreate Amlici as their king. Nephites and Amlicites appoint captains, higher captains, and chief captains and prepare every weapon of war. ",
+    "sources": ["Alma 2:8-14"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Amlici", "Amlicites", "Nephites"],
+    "relative_events": {
+        "after": ["docs/events/alma/2/amlici-election.json"]
+    }
+}

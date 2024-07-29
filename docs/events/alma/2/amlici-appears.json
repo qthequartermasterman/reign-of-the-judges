@@ -1,0 +1,11 @@
+{
+    "name": "Amlici's Campaign",
+    "description": "Amlici, a Nehor, appears and begins to stir up contention among the people. He aspires to become a king and destroy the Church and generates a great political movement among the Nephites",
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5,
+        "miscellaneous": "commencement"
+    },
+    "participants": ["Amlici"],
+    "sources":["Alma 2:1-5"]
+}

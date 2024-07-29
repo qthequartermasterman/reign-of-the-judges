@@ -1,0 +1,16 @@
+{
+    "name": "Nephites bury their dead",
+    "description": "Nephites bury their dead. Bodies of Lamanites and Amlicites thrown into the Waters of Sidon, and their bones are in the depths of the sea. ",
+    "sources": ["Alma 3:1-19"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5
+    },
+    "participants": ["Nephites", "Lamanites", "Amlicites"],
+    "relative_events": {
+        "after": ["docs/events/alma/2/battle-of-river-sidon.json"]
+    },
+    "location": {
+        "name": "Waters of Sidon"
+    }
+}

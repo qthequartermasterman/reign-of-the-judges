@@ -1,0 +1,13 @@
+{
+    "name": "Era of Great Bloodshed",
+    "description": "The first year to the fifteenth year of the reign of the judges has brought to pass the destruction of many thousand lives; yea, it has brought to pass an awful scene of bloodshed.",
+    "sources": ["Alma 28:10"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 1
+    },
+    "end_date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 15
+    }
+}

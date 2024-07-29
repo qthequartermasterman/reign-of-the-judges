@@ -1,0 +1,14 @@
+{
+    "name": "End of Fifth Year",
+    "description": "\"For every man receiveth wages of him whom he listeth to obey, and this according to the words of the spirit of prophecy; therefore let it be according to the truth. And thus endeth the fifth year of the reign of the judges.\"",
+    "sources": ["Alma 3:27"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 5,
+        "miscellaneous": "end"
+    },
+    "participants": [],
+    "relative_events": {
+        "after": ["docs/events/alma/3/amlicite-rebellion-ends.json"]
+    }
+}
