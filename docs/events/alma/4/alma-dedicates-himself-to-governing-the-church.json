@@ -1,0 +1,14 @@
+{
+    "name": "Alma dedicates himself to governing the church",
+    "description": "Alma delivers up the judgment-seat to Nephihah and confines himself wholly to the high priesthood of the holy order of God, to the testimony of the word, according to the spirit of revelation and prophecy.",
+    "sources": ["Alma 4:20"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 9,
+        "miscellaneous": "commencement"
+    },
+    "participants": ["Alma", "Nephihah"],
+    "relative_events": {
+        "after": ["docs/events/alma/4/nephihah-appointment.json"]
+    }
+}

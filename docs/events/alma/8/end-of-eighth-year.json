@@ -1,0 +1,9 @@
+{
+    "name": "End of the Eighth Year",
+    "description": "The eighth year of the reign of the judges over the people of Nephi ends.",
+    "sources": ["Alma 8:1"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 8
+    }
+}

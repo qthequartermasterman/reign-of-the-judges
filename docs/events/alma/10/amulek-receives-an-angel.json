@@ -1,0 +1,15 @@
+{
+    "name": "Amulek Receives an Angel",
+    "description": "Amulek receives an angel who tells him to receive Alma into his house.",
+    "sources": ["Alma 10:4-10"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 10,
+        "day": 4,
+        "month": 7
+    },
+    "participants": ["Amulek", "Alma", "Angel"],
+    "location": {
+        "name": "Ammonihah"
+    }
+}

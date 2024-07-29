@@ -1,0 +1,17 @@
+{
+  "name": "Wickedness in the Church",
+  "description": "In the eighth year of the reign of the judges, there began to be great contentions among the people of the church; yea, there were envyings, and strife, and malice, and persecutions, and pride, even to exceed the pride of those who did not belong to the church of God.",
+  "sources": ["Alma 4:10"],
+  "date": {
+    "calendar_system": "reign-of-the-judges",
+    "year": 8,
+    "miscellaneous": "end"
+  },
+  "participants": ["Nephites", "Saints"],
+  "location": {
+    "name": "Land of Zarahemla"
+  },
+  "relative_events": {
+    "after": ["docs/events/alma/4/contention-in-the-church.json"]
+  }
+}

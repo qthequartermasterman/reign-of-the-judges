@@ -1,0 +1,13 @@
+{
+  "name": "Continual Peace",
+  "description": "Continual peace.",
+  "sources": ["Alma 4:5"],
+  "date": {
+    "calendar_system": "reign-of-the-judges",
+    "year": 7
+  },
+  "participants": ["Nephites"],
+  "location": {
+    "name": "Land of Zarahemla"
+  }
+}

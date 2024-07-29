@@ -1,0 +1,12 @@
+{
+    "name": "No wars nor contentions",
+    "description": "No wars nor contentions in the land of Zarahemla.",
+    "sources": ["Alma 4:1"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 6
+    },
+    "location": {
+        "name": "Land of Zarahemla"
+    }
+}

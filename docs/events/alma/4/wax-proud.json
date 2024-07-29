@@ -1,0 +1,13 @@
+{
+    "name": "Saints wax proud",
+    "description": "The people of the church began to wax proud, because of their exceeding riches, and their fine silks, and their fine-twined linen, and because of their many flocks and herds, and their gold and their silver, and all manner of precious things, which they had obtained by their industry; and in all these things were they lifted up in the pride of their eyes, for they began to wear very costly apparel.",
+    "sources": ["Alma 4:6"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 8
+    },
+    "participants": ["Nephites", "Saints"],
+    "location": {
+        "name": "Land of Zarahemla"
+    }
+}
