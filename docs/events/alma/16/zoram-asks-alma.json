@@ -1,0 +1,20 @@
+{
+    "name": "Zoram asks Alma for revelation about the location of the Lamanite armies",
+    "description": "Zoram asks Alma for revelation about the location of the Lamanite armies.",
+    "sources": [
+        "Alma 16:4-6"
+    ],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 11
+    },
+    "participants": [
+        "Zoram, Chief Captain of the Nephite armies",
+        "Alma the Younger"
+    ],
+    "relative_events": {
+        "after": [
+            "./destruction-of-ammonihah.json"
+        ]
+    }
+}

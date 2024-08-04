@@ -1,0 +1,32 @@
+{
+    "name": "Zoram repels the Lamnanite armies and rescues the captives of Noah",
+    "description": "Zoram repels the Lamanite armies and rescues the captives of Noah, after Alma the Younger receives a revelation from the Lord.",
+    "sources": [
+        "Alma 16:7-8"
+    ],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 11
+    },
+    "participants": [
+        "Zoram, Chief Captain of the Nephite armies",
+        "Alma the Younger",
+        "Lehi, son of Zoram",
+        "Aha, son of Zoram",
+        "Lamanite armies",
+        "Army of Zoram",
+        "Army of Lehi",
+        "Army of Aha",
+        "Captives of Noah"
+    ],
+    "relative_events": {
+        "after": [
+            "./destruction-of-ammonihah.json",
+            "./zoram-asks-alma.json"
+        ]
+    },
+    "location": {
+        "name": "South wilderness",
+        "description": "crossed over the river Sidon, with their armies, and marched away beyond the borders of Manti into the south wilderness, which was on the east side of the river Sidon."
+    }
+}

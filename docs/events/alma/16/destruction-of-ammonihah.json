@@ -1,0 +1,19 @@
+{
+    "name": "Destruction of Ammonihah (Desolation of Nehors)",
+    "description": "The Lamanites suddenly destroy the city of Ammonihah after years of peace.",
+    "sources": ["Alma 16:1-3,9-10"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 11,
+        "month":2,
+        "day": 5
+    },
+    "participants": [
+        "Lamanites",
+        "People of Ammonihah",
+        "Captives of Noah"
+    ],
+    "location": {
+        "name": "Ammonihah and Noah"
+    }
+}

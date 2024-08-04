@@ -1,0 +1,29 @@
+{
+    "name": "Continual Peace",
+    "description": "Lamanites did not attack the People of Nephi, and Alma and Amulek preach throughout the land of the Nephites.",
+    "sources": ["Alma 16:12-21"],
+    "date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 11
+    },
+    "end_date": {
+        "calendar_system": "reign-of-the-judges",
+        "year": 14,
+        "miscellaneous": "end"
+    },
+    "participants": [
+        "Lamanites",
+        "People of Nephi",
+        "Alma the Younger",
+        "Amulek"
+    ],
+    "location": {
+        "name": "Land of Zarahemla"
+    },
+    "relative_events": {
+        "after": [
+            "./destruction-of-ammonihah.json",
+            "./repel-the-lamanites.json"
+        ]
+    }
+}
