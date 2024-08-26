@@ -1,0 +1,24 @@
+{
+  "name": "War Among the Nephites",
+  "description": "Contentions increased, leading to wars throughout all the land among the people of Nephi in the seventy and second year of the reign of the judges.",
+  "sources": [
+    "Helaman 11:1"
+  ],
+  "date": {
+    "year": 72,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 73,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "location": null,
+  "participants": null,
+  "relative_events": null
+}

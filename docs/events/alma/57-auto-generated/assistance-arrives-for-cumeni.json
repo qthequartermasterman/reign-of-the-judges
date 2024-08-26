@@ -1,0 +1,24 @@
+{
+  "name": "Assistance arrives for Cumeni",
+  "description": "Helaman's forces hurried back to Cumeni after the rebellion of the prisoners, arriving in time to assist their brethren in preserving the city.",
+  "sources": [
+    "Alma 57:34"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Cumeni",
+    "description": null
+  },
+  "participants": [
+    "Helaman",
+    "the brethren"
+  ],
+  "relative_events": null
+}

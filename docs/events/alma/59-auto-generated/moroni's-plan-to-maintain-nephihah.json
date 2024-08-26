@@ -1,0 +1,25 @@
+{
+  "name": "Moroni's plan to maintain Nephihah",
+  "description": "Moroni assumes that assistance would be sent to Nephihah, knowing that it is easier to keep the city from falling into the hands of the Lamanites than to retake it if lost.",
+  "sources": [
+    "Alma 59:9"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "People of Nephihah join Moroni's army"
+    ]
+  }
+}

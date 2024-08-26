@@ -1,0 +1,26 @@
+{
+  "name": "Attack on the people of Nephihah",
+  "description": "The Lamanites attack the people of Nephihah, who had gathered from the cities of Moroni and Lehi and the city of Morianton. Additionally, those who fled from the land of Manti joined the Lamanites in this attack.",
+  "sources": [
+    "Alma 59:5-6"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Lamanites",
+    "people of Nephihah"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Moroni's preparations against the Lamanites"
+    ]
+  }
+}

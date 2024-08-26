@@ -1,0 +1,20 @@
+{
+  "name": "Prophets Testify",
+  "description": "Inspired men sent from heaven preached boldly to the people, addressing their sins and iniquities, and testifying of the coming redemption and the resurrection of Christ during the thirtieth year of the reign of the judges.",
+  "sources": [
+    "3 Nephi 6:20"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Inspired men"
+  ],
+  "relative_events": null
+}

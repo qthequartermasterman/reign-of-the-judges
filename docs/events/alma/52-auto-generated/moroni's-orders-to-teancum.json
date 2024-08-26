@@ -1,0 +1,19 @@
+{
+  "name": "Moroni's orders to Teancum",
+  "description": "Moroni commands Teancum to retain Lamanite prisoners as ransom and to fortify the land Bountiful.",
+  "sources": null,
+  "date": {
+    "year": 26,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Teancum"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Lamanites' numerical advantage",
+  "description": "The Lamanites, commanded by Ammoron, attacked the people of Nephihah, beginning an exceedingly great slaughter against them due to their numerical strength.",
+  "sources": [
+    "Alma 59:7"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Ammoron",
+    "Lamanites",
+    "people of Nephihah"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Attack on the people of Nephihah"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Contention in the Land",
+  "description": "In the forty-sixth year of the reign of the judges, there was much contention and many dissensions among the Nephites, resulting in a great many departing from the land of Zarahemla to inhabit the land northward.",
+  "sources": [
+    "Helaman 3:3"
+  ],
+  "date": {
+    "year": 46,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": "The departing took place in the land of Zarahemla."
+  },
+  "participants": [],
+  "relative_events": null
+}

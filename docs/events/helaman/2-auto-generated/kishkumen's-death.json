@@ -1,0 +1,22 @@
+{
+  "name": "Kishkumen's Death",
+  "description": "As they were on their way to the judgment-seat, the servant of Helaman stabbed Kishkumen to death, and informed Helaman of everything he had discovered. Kishkumen fell dead without a groan.",
+  "sources": [
+    "Helaman 2:9"
+  ],
+  "date": {
+    "year": 42,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Kishkumen",
+    "Helaman",
+    "Helaman's servant"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Helaman's Epistle to Moroni",
+  "description": "In the commencement of the thirtieth year of the reign of the judges, on the second day in the first month, Moroni received an epistle from Helaman detailing the affairs of the people in that quarter of the land.",
+  "sources": [
+    "Alma 56:1"
+  ],
+  "date": {
+    "year": 30,
+    "month": 1,
+    "day": 2,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Moroni"
+  ],
+  "relative_events": null
+}

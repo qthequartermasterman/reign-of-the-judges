@@ -1,0 +1,21 @@
+{
+  "name": "Receiving of Helaman's Epistle",
+  "description": "Moroni receives an epistle from Helaman detailing the affairs of the people in the quarter of the land and the involvement of the two thousand sons of Ammon in defending their country.",
+  "sources": [
+    "Alma 56:1-3"
+  ],
+  "date": {
+    "year": 30,
+    "month": 2,
+    "day": 1,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Helaman"
+  ],
+  "relative_events": null
+}

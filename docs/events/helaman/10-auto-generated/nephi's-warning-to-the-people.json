@@ -1,0 +1,25 @@
+{
+  "name": "Nephi's warning to the people",
+  "description": "Nephi returned to the scattered multitudes to declare the word of the Lord concerning their destruction if they did not repent, highlighting the need for repentance.",
+  "sources": [
+    "Helaman 10:12-14"
+  ],
+  "date": {
+    "year": 71,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephi"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Nephi receives a divine message"
+    ]
+  }
+}

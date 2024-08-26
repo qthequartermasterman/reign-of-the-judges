@@ -1,0 +1,23 @@
+{
+  "name": "Recapture of Zarahemla",
+  "description": "Moronihah took back possession of the city of Zarahemla from the Lamanites and allowed the captured Lamanites to depart in peace.",
+  "sources": [
+    "Helaman 1:33"
+  ],
+  "date": {
+    "year": 41,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Moronihah"
+  ],
+  "relative_events": null
+}

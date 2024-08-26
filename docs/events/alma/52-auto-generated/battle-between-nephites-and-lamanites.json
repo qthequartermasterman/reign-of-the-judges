@@ -1,0 +1,21 @@
+{
+  "name": "Battle between Nephites and Lamanites",
+  "description": "A fierce battle ensues between the Nephites and Lamanites, resulting in many casualties on both sides, including the death of Jacob, the Lamanite leader.",
+  "sources": null,
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Lehi",
+    "Jacob",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

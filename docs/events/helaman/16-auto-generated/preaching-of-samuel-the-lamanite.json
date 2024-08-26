@@ -1,0 +1,24 @@
+{
+  "name": "Preaching of Samuel the Lamanite",
+  "description": "Samuel the Lamanite stood upon the walls of the city and preached to the people. Many who believed his words went to Nephi to confess their sins and seek baptism. Those who did not believe were angered and attempted to harm Samuel with stones and arrows, but the Spirit of the Lord was with him, preventing them from hitting him. Ultimately, many more believed in his words and went to Nephi to be baptized, while the unbelievers sought to bind Samuel, proclaiming he had a devil.",
+  "sources": [
+    "Helaman 16:1-6"
+  ],
+  "date": {
+    "year": 86,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City Walls",
+    "description": "City walls where Samuel the Lamanite preached."
+  },
+  "participants": [
+    "Samuel the Lamanite",
+    "Nephi"
+  ],
+  "relative_events": null
+}

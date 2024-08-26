@@ -1,0 +1,25 @@
+{
+  "name": "Preparation for Defense",
+  "description": "As the thirtieth year ended, Helaman prepared for defense in the commencement of the twenty-seventh year, desiring the Lamanites to attack rather than taking the initiative.",
+  "sources": [
+    "Alma 56:20-21"
+  ],
+  "date": {
+    "year": 27,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": "In the commencement"
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": {
+    "before": [
+      "End of the twenty-sixth year"
+    ],
+    "after": null
+  }
+}

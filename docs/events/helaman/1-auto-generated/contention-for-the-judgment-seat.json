@@ -1,0 +1,25 @@
+{
+  "name": "Contention for the Judgment-Seat",
+  "description": "Following the death of Pahoran, a serious contention arose among the people of the Nephites regarding who should take the judgment-seat. The main contenders were Pahoran, Paanchi, and Pacumeni, leading to divisions among the people.",
+  "sources": [
+    "Helaman 1:1-4"
+  ],
+  "date": {
+    "year": 40,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Nephi",
+    "description": null
+  },
+  "participants": [
+    "Pahoran",
+    "Paanchi",
+    "Pacumeni"
+  ],
+  "relative_events": null
+}

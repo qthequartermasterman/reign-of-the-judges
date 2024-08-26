@@ -1,0 +1,30 @@
+{
+  "name": "Korihor Struck Dumb",
+  "description": "Korihor is struck dumb as a sign from God. He confesses and acknowledges the deception by the devil and is cast out.",
+  "sources": [
+    "Alma 30:50-56"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Korihor",
+    "Alma"
+  ],
+  "relative_events": null
+}

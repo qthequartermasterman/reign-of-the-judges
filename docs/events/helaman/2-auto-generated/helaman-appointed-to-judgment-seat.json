@@ -1,0 +1,20 @@
+{
+  "name": "Helaman appointed to Judgment-Seat",
+  "description": "Helaman, the son of Helaman, was appointed to fill the judgment-seat by the voice of the people.",
+  "sources": [
+    "Helaman 2:2"
+  ],
+  "date": {
+    "year": 42,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

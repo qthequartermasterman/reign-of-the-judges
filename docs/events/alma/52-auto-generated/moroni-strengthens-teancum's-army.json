@@ -1,0 +1,19 @@
+{
+  "name": "Moroni strengthens Teancum's army",
+  "description": "Moroni sends a large number of men to strengthen Teancum's army.",
+  "sources": null,
+  "date": {
+    "year": 26,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Teancum"
+  ],
+  "relative_events": null
+}

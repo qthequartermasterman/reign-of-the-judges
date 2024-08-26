@@ -1,0 +1,26 @@
+{
+  "name": "People of Nephihah join Moroni's army",
+  "description": "After being overwhelmed by the numerous armies of the Lamanites, the remaining people of Nephihah flee and join Moroni's army.",
+  "sources": [
+    "Alma 59:8"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "people of Nephihah"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Lamanites' numerical advantage"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Gadianton Robbers Infest the Land",
+  "description": "During the ninety and third year, the Gadianton robbers, who dwelt upon the mountains, infest the land, committing many murders and slaughter among the people.",
+  "sources": [
+    "3 Nephi 1:27"
+  ],
+  "date": {
+    "year": 93,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Mountains",
+    "description": "The mountains where the Gadianton robbers dwelt."
+  },
+  "participants": [
+    "Gadianton robbers"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "End of the ninety and third year in peace"
+    ]
+  }
+}

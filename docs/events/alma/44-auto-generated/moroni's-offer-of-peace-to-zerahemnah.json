@@ -1,0 +1,24 @@
+{
+  "name": "Moroni's Offer of Peace to Zerahemnah",
+  "description": "Moroni offers Zerahemnah and his army a chance to surrender their weapons and leave in peace if they vow not to return to fight again.",
+  "sources": [
+    "Alma 44:1-6"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Battlefield between Nephites and Lamanites",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Zerahemnah"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Military Status Report",
+  "description": "Helaman reports the military situation to Moroni, expressing concerns that their small armies are inadequate to maintain the numerous cities and possessions they have secured. He highlights the lack of additional reinforcements from the government despite their many conquests and expresses fear of a possible faction within the government, as they believe the numbers should be greater.",
+  "sources": [
+    "Alma 58:32-36"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Manti",
+    "description": null
+  },
+  "participants": [
+    "Helaman",
+    "Moroni"
+  ],
+  "relative_events": null
+}

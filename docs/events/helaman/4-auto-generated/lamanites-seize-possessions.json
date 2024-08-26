@@ -1,0 +1,30 @@
+{
+  "name": "Lamanites Seize Possessions",
+  "description": "Throughout the fifty-eighth and fifty-ninth years of the Reign of the Judges, the dissenters of the Nephites, aided by a large Lamanite army, seized all the possessions of the Nephites in the land southward, leading to significant losses for the Nephites.",
+  "sources": [
+    "Helaman 4:8"
+  ],
+  "date": {
+    "year": 58,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 59,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "location": {
+    "name": "Land Southward",
+    "description": null
+  },
+  "participants": [
+    "Dissenters of the Nephites",
+    "Lamanite Army"
+  ],
+  "relative_events": null
+}

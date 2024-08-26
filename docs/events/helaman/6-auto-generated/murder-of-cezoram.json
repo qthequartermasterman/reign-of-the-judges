@@ -1,0 +1,21 @@
+{
+  "name": "Murder of Cezoram",
+  "description": "Cezoram, the chief judge, was murdered by an unknown assailant while sitting on the judgment-seat. In the same year, his son, who had been appointed by the people to replace him, was also murdered.",
+  "sources": [
+    "Helaman 6:15"
+  ],
+  "date": {
+    "year": 66,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Cezoram",
+    "Son of Cezoram"
+  ],
+  "relative_events": null
+}

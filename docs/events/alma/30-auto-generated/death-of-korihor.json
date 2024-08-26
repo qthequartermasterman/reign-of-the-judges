@@ -1,0 +1,27 @@
+{
+  "name": "Death of Korihor",
+  "description": "Korihor goes about from house to house begging for food. Eventually, he is run upon and trodden down by the Zoramites and dies.",
+  "sources": [
+    "Alma 30:57-59"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "location": null,
+  "participants": [
+    "Korihor",
+    "Zoramites"
+  ],
+  "relative_events": null
+}

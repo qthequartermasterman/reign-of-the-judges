@@ -1,0 +1,24 @@
+{
+  "name": "Conflict Escalation",
+  "description": "Upon hearing Zerahemnah's refusal, Moroni insists that the Lamanites cannot leave without making the oath. This leads to a physical altercation in which Zerahemnah attempts to attack Moroni.",
+  "sources": [
+    "Alma 44:10-12"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Battlefield between Nephites and Lamanites",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Zerahemnah"
+  ],
+  "relative_events": null
+}

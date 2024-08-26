@@ -1,0 +1,20 @@
+{
+  "name": "Mormon's Record Keeping",
+  "description": "Mormon introduces himself and describes the purpose of his record keeping, which includes a small record of events from the time of Lehi until his day, as a disciple of Jesus Christ called to declare His word.",
+  "sources": [
+    "3 Nephi 5:12-16"
+  ],
+  "date": {
+    "year": 1,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Mormon"
+  ],
+  "relative_events": null
+}

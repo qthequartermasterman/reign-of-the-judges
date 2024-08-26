@@ -1,0 +1,25 @@
+{
+  "name": "Wounded and dead in battle",
+  "description": "After the battle, Helaman's men tended to their wounded, finding that there were two hundred out of two thousand sixty who fainted due to loss of blood; remarkably, none of the wounded perished, attributed to the miraculous power of God.",
+  "sources": [
+    "Alma 57:24-26"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": {
+    "before": [
+      "The battle with the Lamanites"
+    ],
+    "after": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Wars and Contentions Begin",
+  "description": "In the thirteenth year, wars and contentions began throughout all the land due to the increase of the Gadianton robbers. They became so numerous that they killed many people, laid waste to cities, and spread death and carnage throughout the land, resulting in the Nephites and Lamanites taking up arms against them.",
+  "sources": [
+    "3 Nephi 2:11"
+  ],
+  "date": {
+    "year": 13,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Gadianton robbers",
+    "Nephites",
+    "Lamanites"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "The increase of the Gadianton robbers"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Alert about Lamanite forces",
+  "description": "Gid reported to Helaman about Lamanite armies marching towards the city of Cumeni, prompting a swift response.",
+  "sources": [
+    "Alma 57:30-31"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Cumeni",
+    "description": null
+  },
+  "participants": [
+    "Gid",
+    "Helaman"
+  ],
+  "relative_events": null
+}

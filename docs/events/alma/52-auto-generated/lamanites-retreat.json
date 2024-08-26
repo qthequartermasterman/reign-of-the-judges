@@ -1,0 +1,18 @@
+{
+  "name": "Lamanites retreat",
+  "description": "After finding Amalickiah dead, the Lamanites retreat to the city of Mulek for protection.",
+  "sources": null,
+  "date": {
+    "year": 26,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Lamanites"
+  ],
+  "relative_events": null
+}

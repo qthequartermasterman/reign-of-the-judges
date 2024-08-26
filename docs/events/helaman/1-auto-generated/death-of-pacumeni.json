@@ -1,0 +1,24 @@
+{
+  "name": "Death of Pacumeni",
+  "description": "During the Lamanite invasion, Pacumeni, who was the chief judge, fled before Coriantumr to the walls of the City of Zarahemla, where Coriantumr smote him against the wall, resulting in his death.",
+  "sources": [
+    "Helaman 1:21"
+  ],
+  "date": {
+    "year": 41,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Pacumeni",
+    "Coriantumr"
+  ],
+  "relative_events": null
+}

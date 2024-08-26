@@ -1,0 +1,22 @@
+{
+  "name": "Kishkumen's Plot to Murder Helaman",
+  "description": "Kishkumen, who had murdered Pahoran, laid in wait to destroy Helaman with the help of his band, which had entered into a covenant of secrecy regarding their wickedness.",
+  "sources": [
+    "Helaman 2:3"
+  ],
+  "date": {
+    "year": 42,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Kishkumen",
+    "Pahoran",
+    "Helaman"
+  ],
+  "relative_events": null
+}

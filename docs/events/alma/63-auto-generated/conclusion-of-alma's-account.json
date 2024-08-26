@@ -1,0 +1,22 @@
+{
+  "name": "Conclusion of Alma's account",
+  "description": "The account of Alma, Helaman (his son), and Shiblon (his son) concludes at the end of the thirty-ninth year of the reign of the judges over the people of Nephi.",
+  "sources": [
+    "Alma 63:17"
+  ],
+  "date": {
+    "year": 39,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Alma",
+    "Helaman",
+    "Shiblon"
+  ],
+  "relative_events": null
+}

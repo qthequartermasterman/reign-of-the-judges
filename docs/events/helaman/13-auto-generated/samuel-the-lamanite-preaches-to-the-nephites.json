@@ -1,0 +1,27 @@
+{
+  "name": "Samuel the Lamanite Preaches to the Nephites",
+  "description": "In the eighty-sixth year of the reign of the judges, Samuel the Lamanite comes to Zarahemla to preach repentance to the Nephite people. He is initially rejected and cast out, but upon receiving a command from the Lord, returns to prophesy from the walls of the city. Samuel warns of impending destruction unless the people repent, stating that the sword of justice is about to fall upon them if they do not change their ways. He highlights the consequences of their wickedness, including famine, pestilence, and warfare, and emphasizes the necessity of faith in Jesus Christ for salvation.",
+  "sources": [
+    "Helaman 13:1-39"
+  ],
+  "date": {
+    "year": 86,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Samuel the Lamanite",
+    "Nephites"
+  ],
+  "relative_events": {
+    "before": [],
+    "after": []
+  }
+}

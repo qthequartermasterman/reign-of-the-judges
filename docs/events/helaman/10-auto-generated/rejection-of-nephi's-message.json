@@ -1,0 +1,25 @@
+{
+  "name": "Rejection of Nephi's message",
+  "description": "Despite Nephi's declaration from the Lord to repent or face destruction, the people hardened their hearts, reviled against him, and sought to imprison him. However, the power of God was with Nephi, and he was conveyed away by the Spirit.",
+  "sources": [
+    "Helaman 10:13-16"
+  ],
+  "date": {
+    "year": 71,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephi"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Nephi's warning to the people"
+    ]
+  }
+}

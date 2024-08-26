@@ -1,0 +1,25 @@
+{
+  "name": "Moroni's sorrow for the loss of Nephihah",
+  "description": "Upon realizing the city of Nephihah is lost, Moroni becomes exceedingly sorrowful and doubts the people's commitment to freedom.",
+  "sources": [
+    "Alma 59:11"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Moroni's plan to maintain Nephihah"
+    ]
+  }
+}

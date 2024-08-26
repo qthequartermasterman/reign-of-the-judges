@@ -1,0 +1,28 @@
+{
+  "name": "Lamanite Attack",
+  "description": "During the fifty and seventh year of the reign of the judges, the Lamanites came down against the Nephites to battle, commencing the work of death. In the fifty and eighth year, they succeeded in obtaining possession of the land of Zarahemla and all lands up to near the land Bountiful. Consequently, the Nephites and the armies of Moronihah were driven into the land of Bountiful to fortify themselves.",
+  "sources": [
+    "Helaman 4:5-6"
+  ],
+  "date": {
+    "year": 57,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 58,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "location": null,
+  "participants": [
+    "Lamanites",
+    "Nephites",
+    "Moronihah"
+  ],
+  "relative_events": null
+}

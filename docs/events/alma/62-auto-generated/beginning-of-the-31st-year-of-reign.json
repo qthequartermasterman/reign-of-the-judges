@@ -1,0 +1,23 @@
+{
+  "name": "Beginning of the 31st year of reign",
+  "description": "In the commencement of the 31st year of the reign, Moroni sent provisions and an army of 6,000 men to Helaman to assist him in preserving that part of the land. He also sent another 6,000 men with provisions to the armies of Lehi and Teancum to fortify the land against the Lamanites.",
+  "sources": [
+    "Alma 62:11-13"
+  ],
+  "date": {
+    "year": 31,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Helaman",
+    "Lehi",
+    "Teancum"
+  ],
+  "relative_events": null
+}

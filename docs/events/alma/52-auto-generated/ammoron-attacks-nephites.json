@@ -1,0 +1,19 @@
+{
+  "name": "Ammoron attacks Nephites",
+  "description": "Ammoron gathers an army and marches against the Nephites on the borders by the west sea.",
+  "sources": null,
+  "date": {
+    "year": 26,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Ammoron",
+    "Nephites"
+  ],
+  "relative_events": null
+}

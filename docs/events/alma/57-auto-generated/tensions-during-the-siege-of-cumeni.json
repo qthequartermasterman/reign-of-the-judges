@@ -1,0 +1,31 @@
+{
+  "name": "Tensions during the siege of Cumeni",
+  "description": "Helaman's men camped around the city of Cumeni for many nights, maintaining vigilance against the Lamanites, who attempted to attack them during the night. The Nephites slept with their swords at hand and kept guards to prevent the Lamanites from launching a surprise attack, leading to many casualties among the attackers.",
+  "sources": [
+    "Alma 57:9"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Cumeni",
+    "description": null
+  },
+  "participants": [
+    "Helaman",
+    "Lamanites"
+  ],
+  "relative_events": {
+    "before": [
+      "The siege of Cumeni begins"
+    ],
+    "after": [
+      "The bloodshed during the siege of Cumeni"
+    ]
+  }
+}

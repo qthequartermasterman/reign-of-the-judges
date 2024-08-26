@@ -1,0 +1,25 @@
+{
+  "name": "Appointment of New Chief Judge",
+  "description": "Pahoran was appointed as chief judge by the voice of the people; Pacumeni united with them, while Paanchi was angered and plotted rebellion, for which he was tried and condemned to death. This occurred as a result of the people's desire for a leader and amidst political strife among them.",
+  "sources": [
+    "Helaman 1:5-8"
+  ],
+  "date": {
+    "year": 40,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Nephi",
+    "description": null
+  },
+  "participants": [
+    "Pahoran",
+    "Pacumeni",
+    "Paanchi"
+  ],
+  "relative_events": null
+}

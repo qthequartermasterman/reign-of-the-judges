@@ -1,0 +1,24 @@
+{
+  "name": "Reinforcement of Antipus's Army",
+  "description": "Helaman joined his two thousand sons to the army of Antipus. Antipus rejoiced greatly as his army had been reduced by the Lamanites, and Helaman's young men gave them great hope and joy while fortifying the city.",
+  "sources": [
+    "Alma 56:10-17"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Judea",
+    "description": null
+  },
+  "participants": [
+    "Helaman",
+    "Antipus"
+  ],
+  "relative_events": null
+}

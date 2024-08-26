@@ -1,0 +1,24 @@
+{
+  "name": "Trial and execution of Pachus's men",
+  "description": "Pachus's men and certain king-men were tried according to the law and executed for refusing to defend their country and for denying freedom. This strict enforcement of the law was deemed necessary for the safety of the nation.",
+  "sources": [
+    "Alma 62:9-10"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "land of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Pahoran",
+    "Pachus's men"
+  ],
+  "relative_events": null
+}

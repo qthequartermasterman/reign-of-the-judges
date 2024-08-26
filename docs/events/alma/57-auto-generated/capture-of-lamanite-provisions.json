@@ -1,0 +1,23 @@
+{
+  "name": "Capture of Lamanite provisions",
+  "description": "Helaman's men captured the Lamanites along with their provisions as they attempted to enter the city of Cumeni at night.",
+  "sources": [
+    "Alma 57:10"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Cumeni",
+    "description": null
+  },
+  "participants": [
+    "Helaman's men"
+  ],
+  "relative_events": null
+}

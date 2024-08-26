@@ -1,0 +1,25 @@
+{
+  "name": "Famine Ceases, Rain Falls",
+  "description": "In the seventy and sixth year, the Lord turned away His anger from the people and caused rain to fall, resulting in a bountiful harvest of fruit and grain. The people rejoiced and glorified God, esteeming Nephi as a great prophet with divine authority.",
+  "sources": [
+    "Helaman 11:17-18"
+  ],
+  "date": {
+    "year": 76,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephi"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "The Great Famine"
+    ]
+  }
+}

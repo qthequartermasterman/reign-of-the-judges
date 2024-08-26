@@ -1,0 +1,22 @@
+{
+  "name": "Shiblon takes possession of sacred things",
+  "description": "In the commencement of the thirty-sixth year of the reign of the judges, Shiblon took possession of the sacred things delivered by Alma to Helaman.",
+  "sources": [
+    "Alma 63:1"
+  ],
+  "date": {
+    "year": 36,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": "In the commencement"
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Shiblon",
+    "Helaman",
+    "Alma"
+  ],
+  "relative_events": null
+}

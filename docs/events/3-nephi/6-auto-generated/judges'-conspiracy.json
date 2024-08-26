@@ -1,0 +1,22 @@
+{
+  "name": "Judges' Conspiracy",
+  "description": "The judges, lawyers, and high priests united in a covenant to combine against all righteousness, intending to destroy the governor and establish a king over the land, defying the law and rights of their country.",
+  "sources": [
+    "3 Nephi 6:28-30"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Judges",
+    "Lawyers",
+    "High Priests"
+  ],
+  "relative_events": null
+}

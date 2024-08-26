@@ -1,0 +1,20 @@
+{
+  "name": "Lamanites pursued by Nephites",
+  "description": "The Lamanites are pursued by the Nephites led by Lehi and Moroni's forces.",
+  "sources": null,
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Lehi",
+    "Moroni",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

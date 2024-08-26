@@ -1,0 +1,24 @@
+{
+  "name": "Scalping of Zerahemnah",
+  "description": "One of Moroni's soldiers strikes at Zerahemnah, cutting off his scalp, which is then used to intimidate the Lamanites into surrendering.",
+  "sources": [
+    "Alma 44:12-14"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Battlefield between Nephites and Lamanites",
+    "description": null
+  },
+  "participants": [
+    "Moroni's soldier",
+    "Zerahemnah"
+  ],
+  "relative_events": null
+}

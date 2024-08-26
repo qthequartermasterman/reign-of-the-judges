@@ -1,0 +1,19 @@
+{
+  "name": "Capture of prisoners",
+  "description": "The number of Lamanite prisoners taken exceeds those slain in the battle.",
+  "sources": null,
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

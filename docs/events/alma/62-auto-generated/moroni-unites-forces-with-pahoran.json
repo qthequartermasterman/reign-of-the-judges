@@ -1,0 +1,25 @@
+{
+  "name": "Moroni unites forces with Pahoran",
+  "description": "After gathering men along the way, Moroni united his forces with those of Pahoran in the land of Gideon, making them exceedingly strong against Pachus's dissenters, who had driven the freemen out of the land of Zarahemla.",
+  "sources": [
+    "Alma 62:6"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "land of Gideon",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Pahoran",
+    "Pachus"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Siege by Zemnarihah",
+  "description": "In the twenty-first year, Zemnarihah led the robbers in laying siege around the people of Nephi to cut them off from their lands. The Nephites had sufficient provisions, which helped them withstand the siege, while the robbers struggled with limited resources and dwindling supplies. The Nephites took advantage of this predicament, launching attacks on the robbers continuously, resulting in many robber casualties.",
+  "sources": [
+    "3 Nephi 4:16-21"
+  ],
+  "date": {
+    "year": 21,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Nephi",
+    "description": null
+  },
+  "participants": [
+    "Zemnarihah",
+    "Nephites"
+  ],
+  "relative_events": {
+    "before": [
+      "The defeat of the armies of Giddianhi"
+    ],
+    "after": [
+      "Withdrawal of Zemnarihah"
+    ]
+  }
+}

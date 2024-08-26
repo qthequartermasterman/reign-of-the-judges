@@ -1,0 +1,24 @@
+{
+  "name": "Lamanites' Fear and Surrender",
+  "description": "Fearing further brutalities, many Lamanites surrender their weapons and enter into a covenant of peace with the Nephites. They are allowed to depart into the wilderness.",
+  "sources": [
+    "Alma 44:14-15"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Battlefield between Nephites and Lamanites",
+    "description": null
+  },
+  "participants": [
+    "Lamanite soldiers",
+    "Nephite soldiers"
+  ],
+  "relative_events": null
+}

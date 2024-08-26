@@ -1,0 +1,25 @@
+{
+  "name": "Moroni marches towards the land of Gideon",
+  "description": "Moroni took a small number of men, according to the desire of Pahoran, and gave command to Lehi and Teancum over the remainder of his army as he marched toward the land of Gideon. He raised the standard of liberty in every place he entered, gaining forces as he marched.",
+  "sources": [
+    "Alma 62:3-4"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "land of Gideon",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Lehi",
+    "Teancum"
+  ],
+  "relative_events": null
+}

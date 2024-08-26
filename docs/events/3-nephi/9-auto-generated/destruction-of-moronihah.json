@@ -1,0 +1,21 @@
+{
+  "name": "Destruction of Moronihah",
+  "description": "The city of Moronihah has been covered with earth to hide the inhabitants' iniquities and abominations. This is due to their shedding the blood of the prophets and saints.",
+  "sources": [
+    "3 Nephi 9:5"
+  ],
+  "date": {
+    "year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Moronihah",
+    "description": null
+  },
+  "participants": [],
+  "relative_events": null
+}

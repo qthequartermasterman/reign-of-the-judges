@@ -1,0 +1,23 @@
+{
+  "name": "Arrival of Provisions and Reinforcements",
+  "description": "In the second month of the thirtieth year of the reign of the judges, many provisions were brought to Helaman from the fathers of the two thousand sons. Additionally, an extra two thousand men were sent from the land of Zarahemla. Thus, they were prepared with ten thousand men and provisions for them and their families.",
+  "sources": [
+    "Alma 56:27-28"
+  ],
+  "date": {
+    "year": 30,
+    "month": 2,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

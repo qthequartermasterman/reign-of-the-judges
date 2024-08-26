@@ -1,0 +1,29 @@
+{
+  "name": "Complaint Against Judges",
+  "description": "A complaint arose in the land of Zarahemla against judges who condemned the prophets of the Lord to death not according to the law. This led to the judges being brought before the judge to be tried for their actions.",
+  "sources": [
+    "3 Nephi 6:25-26"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": "The land where the complaint arose against the judges."
+  },
+  "participants": [
+    "Judges",
+    "Prophets"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Trial of the Judges"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Helaman's Leadership",
+  "description": "In the forty-seventh year of the reign of the Judges, despite ongoing contention, Helaman filled the judgment-seat with justice and equity. He observed God's commandments, kept the statutes and judgments, and did that which was right in the sight of God continually, walking after the ways of his father, which led to his prosperity in the land.",
+  "sources": [
+    "Helaman 3:20"
+  ],
+  "date": {
+    "year": 47,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Death of Shiblon",
+  "description": "In the thirty-ninth year of the reign of the judges, Shiblon died and Corianton went forth to the land northward in a ship to carry provisions to the people who had gone forth into that land.",
+  "sources": [
+    "Alma 63:10"
+  ],
+  "date": {
+    "year": 39,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Shiblon",
+    "Corianton"
+  ],
+  "relative_events": null
+}

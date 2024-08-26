@@ -1,0 +1,24 @@
+{
+  "name": "Peace in the Nephite Lands",
+  "description": "The Nephites experienced prosperity and peace during the twenty and first to twenty and third years.",
+  "sources": [
+    "Alma 50:18-20"
+  ],
+  "date": {
+    "year": 21,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 23,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "location": null,
+  "participants": null,
+  "relative_events": null
+}

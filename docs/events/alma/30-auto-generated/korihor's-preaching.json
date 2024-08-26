@@ -1,0 +1,29 @@
+{
+  "name": "Korihor's Preaching",
+  "description": "Korihor, the Anti-Christ, begins preaching against the coming of Christ in the land of Zarahemla.",
+  "sources": [
+    "Alma 30:6-19"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": "latter end"
+  },
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Korihor"
+  ],
+  "relative_events": null
+}

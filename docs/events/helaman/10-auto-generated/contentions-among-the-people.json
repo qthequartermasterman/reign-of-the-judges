@@ -1,0 +1,25 @@
+{
+  "name": "Contentions among the people",
+  "description": "As Nephi continued to declare the word of God, the people would not hearken unto his words. This led to increasing divisions among them, resulting in contentions and violence, which culminated in them beginning to slay one another with the sword.",
+  "sources": [
+    "Helaman 10:17-18"
+  ],
+  "date": {
+    "year": 71,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephi"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Rejection of Nephi's message"
+    ]
+  }
+}

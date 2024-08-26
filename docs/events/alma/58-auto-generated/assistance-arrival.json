@@ -1,0 +1,23 @@
+{
+  "name": "Assistance Arrival",
+  "description": "Helaman's forces were in need of provisions and strength to maintain their territory against the Lamanites. After a delay of many months, they received food guarded by an army of two thousand men, which was the only assistance they received to defend themselves against the overwhelming Lamanite forces.",
+  "sources": [
+    "Alma 58:3-8"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Manti",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

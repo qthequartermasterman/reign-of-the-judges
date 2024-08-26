@@ -1,0 +1,23 @@
+{
+  "name": "End of the seventy and first year",
+  "description": "This marks the end of the seventy and first year of the reign of the judges over the people of Nephi.",
+  "sources": [
+    "Helaman 10:19"
+  ],
+  "date": {
+    "year": 71,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": null,
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Contentions among the people"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Nephi on the tower",
+  "description": "Nephi goes up on a tower in his garden near the highway that leads to the chief market in the city of Zarahemla to pour out his soul to God in prayer concerning the wickedness of his people.",
+  "sources": [
+    "Helaman 7:10"
+  ],
+  "date": {
+    "year": 69,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": "Near the highway that leads to the chief market."
+  },
+  "participants": [
+    "Nephi"
+  ],
+  "relative_events": null
+}

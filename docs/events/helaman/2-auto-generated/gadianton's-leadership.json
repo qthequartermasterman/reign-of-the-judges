@@ -1,0 +1,27 @@
+{
+  "name": "Gadianton's Leadership",
+  "description": "Gadianton, who was exceedingly skilled in manipulation, became the leader of Kishkumen's band. He flattered them by promising to place them in power and authority among the people if he was appointed to the judgment-seat. This led Kishkumen to seek the destruction of Helaman.",
+  "sources": [
+    "Helaman 2:4-5"
+  ],
+  "date": {
+    "year": 42,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Gadianton",
+    "Kishkumen",
+    "Helaman"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Kishkumen's conspiracy against Helaman"
+    ]
+  }
+}

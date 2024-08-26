@@ -1,0 +1,21 @@
+{
+  "name": "Moroni receives Helaman's epistle",
+  "description": "In the thirtieth year of the reign of the judges, Moroni rejoices after reading Helaman's epistle, which reports Helaman's success in regaining lands that were lost.",
+  "sources": [
+    "Alma 59:1"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Helaman"
+  ],
+  "relative_events": null
+}

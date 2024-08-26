@@ -1,0 +1,29 @@
+{
+  "name": "Battle with the Lamanites",
+  "description": "Helaman and his two thousand young men engaged in battle against the Lamanites after returning to assist the weary army of Antipus. They surrounded and defeated the Lamanites, compelling them to surrender. Despite the fierce battle, not one of Helaman's soldiers fell in the fight, exhibiting divine strength during the conflict.",
+  "sources": [
+    "Alma 56:49-56"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Antipus",
+    "Lamanites"
+  ],
+  "relative_events": {
+    "before": [
+      "Fall of Antipus"
+    ],
+    "after": [
+      "Surrender of the Lamanites"
+    ]
+  }
+}

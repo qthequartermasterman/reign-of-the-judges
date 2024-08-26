@@ -1,0 +1,20 @@
+{
+  "name": "Moronihah Regains Land",
+  "description": "In the sixtieth year of the reign of the judges, Moronihah and his armies successfully regained several cities that had been occupied by the Lamanites.",
+  "sources": [
+    "Helaman 4:9"
+  ],
+  "date": {
+    "year": 60,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moronihah"
+  ],
+  "relative_events": null
+}

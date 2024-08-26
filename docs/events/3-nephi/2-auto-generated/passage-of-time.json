@@ -1,0 +1,24 @@
+{
+  "name": "Passage of Time",
+  "description": "The years 96, 97, 98, and 99 passed without significant events reported, as the people remained in wickedness.",
+  "sources": [
+    "3 Nephi 2:4"
+  ],
+  "date": {
+    "year": 96,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": "In the end"
+  },
+  "end_date": {
+    "year": 99,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": "As the year ended"
+  },
+  "location": null,
+  "participants": null,
+  "relative_events": null
+}

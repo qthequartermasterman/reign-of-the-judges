@@ -1,0 +1,23 @@
+{
+  "name": "Church Broken Up",
+  "description": "By the thirtieth year of the reign of the judges, the church was broken up in all the land except among a few steadfast Lamanites who remained firm in their faith and were diligent in keeping the commandments of the Lord.",
+  "sources": [
+    "3 Nephi 6:14"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": null,
+  "relative_events": {
+    "before": null,
+    "after": [
+      "The Reign of the Judges"
+    ]
+  }
+}

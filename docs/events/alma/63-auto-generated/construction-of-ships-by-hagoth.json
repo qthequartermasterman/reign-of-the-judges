@@ -1,0 +1,23 @@
+{
+  "name": "Construction of ships by Hagoth",
+  "description": "Hagoth, an exceedingly curious man, built a large ship on the borders of the land Bountiful, by the land Desolation, and launched it into the west sea, by the narrow neck which led into the land northward.",
+  "sources": [
+    "Alma 63:5"
+  ],
+  "date": {
+    "year": 37,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land Bountiful",
+    "description": "On the borders of the land Bountiful, by the land Desolation."
+  },
+  "participants": [
+    "Hagoth"
+  ],
+  "relative_events": null
+}

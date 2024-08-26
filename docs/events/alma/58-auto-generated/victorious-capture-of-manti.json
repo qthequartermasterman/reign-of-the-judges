@@ -1,0 +1,23 @@
+{
+  "name": "Victorious Capture of Manti",
+  "description": "Due to Helaman's strategic maneuvers, the Nephites were able to take possession of the city of Manti without bloodshed, leading to a fear-induced retreat by the Lamanite armies. The Lamanites, upon seeing the Nephites prepared to meet them, were astonished and fled into the wilderness, carrying many women and children with them.",
+  "sources": [
+    "Alma 58:28-30"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Manti",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

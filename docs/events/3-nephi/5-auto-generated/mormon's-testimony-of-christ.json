@@ -1,0 +1,20 @@
+{
+  "name": "Mormon's Testimony of Christ",
+  "description": "Mormon declares himself a disciple of Jesus Christ, called to declare His word for the salvation of the people.",
+  "sources": [
+    "3 Nephi 5:13"
+  ],
+  "date": {
+    "year": 1,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Mormon"
+  ],
+  "relative_events": null
+}

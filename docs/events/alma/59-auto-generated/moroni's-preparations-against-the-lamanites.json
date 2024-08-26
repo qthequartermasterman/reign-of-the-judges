@@ -1,0 +1,25 @@
+{
+  "name": "Moroni's preparations against the Lamanites",
+  "description": "While preparing to battle the Lamanites to reclaim their possessions and cities, Moroni learns of an attack on Nephihah.",
+  "sources": [
+    "Alma 59:4"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Moroni's communication to Pahoran"
+    ]
+  }
+}

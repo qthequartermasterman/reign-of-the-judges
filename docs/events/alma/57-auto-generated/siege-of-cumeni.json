@@ -1,0 +1,23 @@
+{
+  "name": "Siege of Cumeni",
+  "description": "Helaman desired to wage battle against the army that protected the city Cumeni. They surrounded the city by night just before the enemy was to receive a supply of provisions.",
+  "sources": [
+    "Alma 57:7-8"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Cumeni",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

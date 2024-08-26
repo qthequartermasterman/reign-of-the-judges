@@ -1,0 +1,21 @@
+{
+  "name": "Preparations for battle against Antiparah",
+  "description": "Due to Ammoron refusing to exchange prisoners, Helaman's forces began preparations to go against the city of Antiparah.",
+  "sources": [
+    "Alma 57:3"
+  ],
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Ammoron"
+  ],
+  "relative_events": null
+}

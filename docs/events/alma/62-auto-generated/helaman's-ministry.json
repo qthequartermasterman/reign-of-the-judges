@@ -1,0 +1,20 @@
+{
+  "name": "Helaman's ministry",
+  "description": "Helaman resumed his preaching to the people, helping many to repent and be baptized, and re-establishing the church throughout the land.",
+  "sources": [
+    "Alma 62:44-46"
+  ],
+  "date": {
+    "year": 31,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

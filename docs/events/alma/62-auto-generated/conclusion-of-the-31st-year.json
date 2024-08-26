@@ -1,0 +1,24 @@
+{
+  "name": "Conclusion of the 31st year",
+  "description": "The 31st year concluded with Moroni returning to the city of Zarahemla after having fortified the lands that were most exposed to the Lamanites, restoring order and establishing peace amongst the Nephites.",
+  "sources": [
+    "Alma 62:39-42"
+  ],
+  "date": {
+    "year": 31,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Helaman"
+  ],
+  "relative_events": null
+}

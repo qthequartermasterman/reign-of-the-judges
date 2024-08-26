@@ -1,0 +1,30 @@
+{
+  "name": "Korihor in Zarahemla",
+  "description": "Korihor is sent to Zarahemla to be judged by Alma and the chief judge. He continues saying there is no God and demands a sign.",
+  "sources": [
+    "Alma 30:29-50"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Korihor",
+    "Alma"
+  ],
+  "relative_events": null
+}

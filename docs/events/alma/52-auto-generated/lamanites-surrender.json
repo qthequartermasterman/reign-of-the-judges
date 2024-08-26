@@ -1,0 +1,19 @@
+{
+  "name": "Lamanites surrender",
+  "description": "The remaining Lamanites surrender, throwing down their weapons of war at the feet of Moroni.",
+  "sources": null,
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

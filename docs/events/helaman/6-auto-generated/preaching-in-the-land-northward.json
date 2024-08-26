@@ -1,0 +1,25 @@
+{
+  "name": "Preaching in the land northward",
+  "description": "Nephi and Lehi, along with many Lamanites, went into the land northward to preach to the people.",
+  "sources": [
+    "Helaman 6:6"
+  ],
+  "date": {
+    "year": 63,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "the land northward",
+    "description": null
+  },
+  "participants": [
+    "Nephi",
+    "Lehi",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

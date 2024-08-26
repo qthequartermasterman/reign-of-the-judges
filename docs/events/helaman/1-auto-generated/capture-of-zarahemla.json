@@ -1,0 +1,24 @@
+{
+  "name": "Capture of Zarahemla",
+  "description": "Coriantumr and the Lamanites attacked and captured the city of Zarahemla, resulting in great slaughter among the Nephite inhabitants. Coriantumr led his army with such speed that the Nephites had no time to gather their forces. He cut down the watch at the entrance and subsequently killed anyone who opposed them, taking possession of the city.",
+  "sources": [
+    "Helaman 1:19-20"
+  ],
+  "date": {
+    "year": 41,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Coriantumr",
+    "Pacumeni"
+  ],
+  "relative_events": null
+}

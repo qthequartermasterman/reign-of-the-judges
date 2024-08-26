@@ -1,0 +1,21 @@
+{
+  "name": "Continuing War",
+  "description": "At the beginning of the fourteenth year of the reign of the judges, the war between the Gadianton robbers and the Nephites continued and became exceedingly sore; however, the Nephites gained some advantages over the robbers, driving them back into the mountains and their secret places.",
+  "sources": [
+    "3 Nephi 2:17"
+  ],
+  "date": {
+    "year": 14,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": "In the commencement"
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephites",
+    "Gadianton robbers"
+  ],
+  "relative_events": null
+}

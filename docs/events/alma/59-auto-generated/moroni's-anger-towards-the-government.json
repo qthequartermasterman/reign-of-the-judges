@@ -1,0 +1,25 @@
+{
+  "name": "Moroni's anger towards the government",
+  "description": "Moroni expresses anger towards the government due to their indifference concerning the freedom of their country.",
+  "sources": [
+    "Alma 59:13"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Moroni's sorrow for the loss of Nephihah"
+    ]
+  }
+}

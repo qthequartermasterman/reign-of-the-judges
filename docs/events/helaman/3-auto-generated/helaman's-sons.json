@@ -1,0 +1,22 @@
+{
+  "name": "Helaman's Sons",
+  "description": "Helaman had two sons, Nephi and Lehi, who began to grow up in the Lord during the reign of their father.",
+  "sources": [
+    "Helaman 3:21"
+  ],
+  "date": {
+    "year": 47,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Nephi",
+    "Lehi"
+  ],
+  "relative_events": null
+}

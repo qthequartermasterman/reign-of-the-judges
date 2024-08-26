@@ -1,0 +1,32 @@
+{
+  "name": "Battle against the Armies of Giddianhi",
+  "description": "In the sixth month of the nineteenth year, Giddianhi led his armies in battle against the Nephites. The armies of the Nephites, seeing the terrifying appearance of Giddianhi's army, fell to the ground and cried out to the Lord for deliverance. Giddianhi's armies mistakenly believed the Nephites had succumbed to fear, but instead, the Nephites cried out to God for protection and were prepared to fight. The battle that ensued was fierce, resulting in great slaughter on both sides, and ultimately, the Nephites defeated Giddianhi's army, causing them to retreat.",
+  "sources": [
+    "3 Nephi 4:5-12"
+  ],
+  "date": {
+    "year": 19,
+    "month": 6,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Nephi",
+    "description": null
+  },
+  "participants": [
+    "Giddianhi",
+    "Nephites",
+    "Gidgiddoni"
+  ],
+  "relative_events": {
+    "before": [
+      "The siege by Zemnarihah"
+    ],
+    "after": [
+      "The armies of Giddianhi defeated"
+    ]
+  }
+}

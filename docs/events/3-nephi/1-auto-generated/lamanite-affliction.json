@@ -1,0 +1,23 @@
+{
+  "name": "Lamanite Affliction",
+  "description": "The Lamanites face sorrow as their children grow strong and are led away by Zoramites through lies and flattery to join the Gadianton robbers, causing a decline in their faith and righteousness due to the wickedness of the rising generation.",
+  "sources": [
+    "3 Nephi 1:29-30"
+  ],
+  "date": {
+    "year": 94,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Lamanites",
+    "Children of Lamanites",
+    "Zoramites",
+    "Gadianton robbers"
+  ],
+  "relative_events": null
+}

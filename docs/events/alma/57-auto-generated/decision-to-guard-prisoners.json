@@ -1,0 +1,28 @@
+{
+  "name": "Decision to guard prisoners",
+  "description": "Given the problematic situation with prisoners, Helaman made a decision to guard them down to the land of Zarahemla instead of executing them due to lack of provisions. Helaman and his men resolved to send a part of their men with the prisoners to ensure their safety while traveling to Zarahemla.",
+  "sources": [
+    "Alma 57:15-16"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": {
+    "before": [
+      "The decision to execute prisoners"
+    ],
+    "after": null
+  }
+}

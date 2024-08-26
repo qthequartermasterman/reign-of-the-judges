@@ -1,0 +1,22 @@
+{
+  "name": "Dissenters stirred up against Nephites",
+  "description": "In the thirty-ninth year of the reign of the judges, some dissenters went to the Lamanites and stirred them up to anger against the Nephites, leading to a confrontation.",
+  "sources": [
+    "Alma 63:14"
+  ],
+  "date": {
+    "year": 39,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Dissenters",
+    "Lamanites",
+    "Nephites"
+  ],
+  "relative_events": null
+}

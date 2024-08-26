@@ -1,0 +1,26 @@
+{
+  "name": "Nephi receives a divine message",
+  "description": "While pondering the wickedness of the Nephites, Nephi received a voice from the Lord blessing him for his unwavering declaration of God's word. God granted him power over the people, stating that he could smite the earth with famine, pestilence, and destruction according to their wickedness. Nephi was given authority to seal on earth what is sealed in heaven and commanded to declare God's message of impending destruction unless the people repented.",
+  "sources": [
+    "Helaman 10:3-12"
+  ],
+  "date": {
+    "year": 71,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephi",
+    "God"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Division among the people"
+    ]
+  }
+}

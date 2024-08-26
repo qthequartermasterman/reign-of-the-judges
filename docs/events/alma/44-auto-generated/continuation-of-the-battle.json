@@ -1,0 +1,26 @@
+{
+  "name": "Continuation of the Battle",
+  "description": "Incited by Zerahemnah, the remaining Lamanites fight more furiously against the Nephites, resulting in heavy casualties.",
+  "sources": [
+    "Alma 44:16-18"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Battlefield between Nephites and Lamanites",
+    "description": null
+  },
+  "participants": [
+    "Zerahemnah",
+    "Lamanite soldiers",
+    "Nephite soldiers",
+    "Moroni"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Pacumeni becomes Chief Judge",
+  "description": "Pacumeni was appointed as chief judge and governor over the Nephites by the voice of the people, succeeding his brother Pahoran. This transition took place during a tumultuous political period and marked his right to hold office. It occurred in the fortieth year of the reign of the judges, indicating a significant moment in Nephite leadership.",
+  "sources": [
+    "Helaman 1:13"
+  ],
+  "date": {
+    "year": 40,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 40,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "location": {
+    "name": "Land of Nephi",
+    "description": null
+  },
+  "participants": [
+    "Pacumeni"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Defeat of Zemnarihah's Army",
+  "description": "Zemnarihah, seeing the high casualties his troops were suffering, commanded his people to withdraw from the siege and retreat to parts further north. Gidgiddoni, aware of this, sent his armies in the night to cut off their retreat, surrounding them at dawn. Thousands of robbers yielded themselves as prisoners, and the remainder were slain. Zemnarihah was captured and hanged upon a tree until dead.",
+  "sources": [
+    "3 Nephi 4:23-28"
+  ],
+  "date": {
+    "year": 21,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Parts northward",
+    "description": null
+  },
+  "participants": [
+    "Zemnarihah",
+    "Gidgiddoni",
+    "Nephites"
+  ],
+  "relative_events": {
+    "before": [
+      "The siege by Zemnarihah"
+    ],
+    "after": [
+      "Zemnarihah is hanged"
+    ]
+  }
+}

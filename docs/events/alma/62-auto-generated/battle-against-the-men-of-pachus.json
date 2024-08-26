@@ -1,0 +1,25 @@
+{
+  "name": "Battle against the men of Pachus",
+  "description": "Moroni and Pahoran marched to battle against Pachus and his men in the land of Zarahemla, resulting in Pachus being slain and Pahoran restored to the judgment-seat.",
+  "sources": [
+    "Alma 62:7-8"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Pahoran",
+    "Pachus"
+  ],
+  "relative_events": null
+}

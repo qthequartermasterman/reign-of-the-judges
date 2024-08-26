@@ -1,0 +1,23 @@
+{
+  "name": "Yielding of Cumeni to Nephites",
+  "description": "The Lamanite defenders of Cumeni, losing hope for support, surrendered the city to Helaman's forces, enabling the Nephites to accomplish their designs in obtaining the city.",
+  "sources": [
+    "Alma 57:12"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Cumeni",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

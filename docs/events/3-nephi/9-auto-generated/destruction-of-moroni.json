@@ -1,0 +1,21 @@
+{
+  "name": "Destruction of Moroni",
+  "description": "The city of Moroni has been caused to sink into the depths of the sea, resulting in the drowning of its inhabitants. This destruction is attributed to the people's sins.",
+  "sources": [
+    "3 Nephi 9:4"
+  ],
+  "date": {
+    "year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Moroni",
+    "description": null
+  },
+  "participants": [],
+  "relative_events": null
+}

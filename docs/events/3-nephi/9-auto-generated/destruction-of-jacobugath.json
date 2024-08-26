@@ -1,0 +1,21 @@
+{
+  "name": "Destruction of Jacobugath",
+  "description": "The great city of Jacobugath was burned due to the immense wickedness of its inhabitants, including secret murders and combinations that destroyed the peace of the people. The burning of the city was commanded to prevent the blood of the prophets and the saints from coming up against the inhabitants before God.",
+  "sources": [
+    "3 Nephi 9:9"
+  ],
+  "date": {
+    "year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Jacobugath",
+    "description": null
+  },
+  "participants": [],
+  "relative_events": null
+}

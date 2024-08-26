@@ -1,0 +1,23 @@
+{
+  "name": "Nephi returns to Zarahemla",
+  "description": "In the sixty-ninth year of the reign of the judges, Nephi, the son of Helaman, returns to the land of Zarahemla from the land northward after preaching to the people there, who rejected his words.",
+  "sources": [
+    "Helaman 7:1"
+  ],
+  "date": {
+    "year": 69,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": "Land where Nephi returned after preaching to the people in the land northward."
+  },
+  "participants": [
+    "Nephi, the son of Helaman"
+  ],
+  "relative_events": null
+}

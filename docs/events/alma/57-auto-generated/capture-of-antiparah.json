@@ -1,0 +1,23 @@
+{
+  "name": "Capture of Antiparah",
+  "description": "The city of Antiparah fell into Helaman's hands as the people fled to their other cities to fortify them.",
+  "sources": [
+    "Alma 57:4"
+  ],
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Antiparah",
+    "description": "The city that fell into Helaman's hands."
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

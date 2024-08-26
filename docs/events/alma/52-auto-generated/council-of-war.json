@@ -1,0 +1,19 @@
+{
+  "name": "Council of war",
+  "description": "In the commencement of the twenty-eighth year, Moroni, Teancum, and the chief captains hold a council of war.",
+  "sources": null,
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Teancum"
+  ],
+  "relative_events": null
+}

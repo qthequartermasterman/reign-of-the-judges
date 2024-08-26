@@ -1,0 +1,28 @@
+{
+  "name": "Celebration of Deliverance",
+  "description": "Following the defeat of the robbers and the hanging of Zemnarihah, the Nephites rejoiced, praising God for His deliverance from their enemies. They broke forth in singing, praising God for their preservation and called upon the God of Abraham, Isaac, and Jacob for continued protection. Their hearts were filled with joy, and they acknowledged that their deliverance came because of their repentance and humility.",
+  "sources": [
+    "3 Nephi 4:29-33"
+  ],
+  "date": {
+    "year": 21,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Nephi",
+    "description": null
+  },
+  "participants": [
+    "Nephites"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "The defeat of Zemnarihah's army"
+    ]
+  }
+}

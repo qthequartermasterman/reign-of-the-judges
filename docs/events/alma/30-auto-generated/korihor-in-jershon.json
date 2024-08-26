@@ -1,0 +1,31 @@
+{
+  "name": "Korihor in Jershon",
+  "description": "Korihor is taken and bound by the people of Ammon in the land of Jershon and sent out of the land.",
+  "sources": [
+    "Alma 30:20-21"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "location": {
+    "name": "Jershon",
+    "description": null
+  },
+  "participants": [
+    "Korihor",
+    "People of Ammon",
+    "Ammon"
+  ],
+  "relative_events": null
+}

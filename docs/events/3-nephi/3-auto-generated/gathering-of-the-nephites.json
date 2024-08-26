@@ -1,0 +1,23 @@
+{
+  "name": "Gathering of the Nephites",
+  "description": "In the seventeenth year, in the latter end of the year, the people gathered together in the land of Zarahemla and the land between Zarahemla and Bountiful in response to Lachoneus's proclamation. Thousands fortified themselves against their enemies, repented of their sins, and prayed for deliverance.",
+  "sources": [
+    "3 Nephi 3:22-25"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": "and the land between Zarahemla and the land Bountiful"
+  },
+  "participants": [
+    "Lachoneus"
+  ],
+  "relative_events": null
+}

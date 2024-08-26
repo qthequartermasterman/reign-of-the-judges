@@ -1,0 +1,21 @@
+{
+  "name": "Destruction of Zarahemla",
+  "description": "The city of Zarahemla has been burned with fire, and its inhabitants destroyed due to their iniquities and abominations. This event signifies the severe consequences of the wickedness of the people.",
+  "sources": [
+    "3 Nephi 9:3"
+  ],
+  "date": {
+    "year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [],
+  "relative_events": null
+}

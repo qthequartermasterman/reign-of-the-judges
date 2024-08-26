@@ -1,0 +1,25 @@
+{
+  "name": "Departure of 5400 people to the north",
+  "description": "In the thirty-seventh year of the reign of the judges, a large company of 5400 men, along with their wives and children, departed from the land of Zarahemla into the land northward.",
+  "sources": [
+    "Alma 63:4"
+  ],
+  "date": {
+    "year": 37,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "5400 men",
+    "wives",
+    "children"
+  ],
+  "relative_events": null
+}

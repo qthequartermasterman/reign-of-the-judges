@@ -1,0 +1,24 @@
+{
+  "name": "Conclusion of the Battle and Burial of the Dead",
+  "description": "Following the battle, the dead are thrown into the waters of Sidon, and the Nephite soldiers return to their homes and lands.",
+  "sources": [
+    "Alma 44:21-24"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Waters of Sidon",
+    "description": null
+  },
+  "participants": [
+    "Nephite soldiers",
+    "Lamanite soldiers"
+  ],
+  "relative_events": null
+}

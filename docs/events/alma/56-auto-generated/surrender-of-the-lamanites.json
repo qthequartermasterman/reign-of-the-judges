@@ -1,0 +1,23 @@
+{
+  "name": "Surrender of the Lamanites",
+  "description": "The Lamanites surrendered themselves as prisoners of war after being surrounded by Helaman and his two thousand warriors, who fought valiantly without any losses on their side. They delivered up their weapons of war upon surrendering.",
+  "sources": [
+    "Alma 56:54-56"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "the people of Nephi",
+    "the people of Antipus",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

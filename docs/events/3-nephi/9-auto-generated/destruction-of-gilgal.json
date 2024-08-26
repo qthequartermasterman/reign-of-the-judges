@@ -1,0 +1,21 @@
+{
+  "name": "Destruction of Gilgal",
+  "description": "The city of Gilgal has been sunk, and its inhabitants buried in the depths of the earth. This destruction serves to hide their wickedness and abominations.",
+  "sources": [
+    "3 Nephi 9:6"
+  ],
+  "date": {
+"year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Gilgal",
+    "description": null
+  },
+  "participants": [],
+  "relative_events": null
+}

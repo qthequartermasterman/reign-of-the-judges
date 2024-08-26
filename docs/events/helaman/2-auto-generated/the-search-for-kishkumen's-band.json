@@ -1,0 +1,22 @@
+{
+  "name": "The Search for Kishkumen's Band",
+  "description": "After the death of Kishkumen, Helaman sent men to capture the band of robbers and secret murderers, but Gadianton led them away into the wilderness to evade capture, fearing for his safety after Kishkumen's demise.",
+  "sources": [
+    "Helaman 2:10-11"
+  ],
+  "date": {
+    "year": 42,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Gadianton",
+    "Kishkumen"
+  ],
+  "relative_events": null
+}

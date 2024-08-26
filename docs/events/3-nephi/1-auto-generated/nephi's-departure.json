@@ -1,0 +1,24 @@
+{
+  "name": "Nephi's Departure",
+  "description": "Nephi, the son of Helaman, departs from the land of Zarahemla, giving charge to his eldest son Nephi concerning the sacred records and the plates of brass, which had been kept since the departure of Lehi out of Jerusalem. The destination of Nephi is unknown to man, and his son Nephi keeps the records in his stead.",
+  "sources": [
+    "3 Nephi 1:2-3"
+  ],
+  "date": {
+    "year": 91,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Nephi",
+    "Nephi the son of Helaman"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Strategic Diversion against the Lamanites",
+  "description": "Helaman and Antipus devised a stratagem to mislead the Lamanites, leading them away from their stronghold while attempting to gain the upper hand. Helaman marched with his little sons near the city of Antiparah to simulate delivering provisions, while Antipus coordinated the main army to pursue the fleeing Lamanites after they were lured from their stronghold.",
+  "sources": [
+    "Alma 56:30-38"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Antiparah",
+    "description": "City where the strongest army of the Lamanites was stationed."
+  },
+  "participants": [
+    "Helaman",
+    "Antipus"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Pursuit of the Lamanite Army"
+    ]
+  }
+}

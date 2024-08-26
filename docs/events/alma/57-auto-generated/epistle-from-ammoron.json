@@ -1,0 +1,21 @@
+{
+  "name": "Epistle from Ammoron",
+  "description": "Helaman received an epistle from Ammoron, the king, stating that if he would deliver up the prisoners of war they had taken, then Ammoron would deliver the city of Antiparah in exchange.",
+  "sources": [
+    "Alma 57:1"
+  ],
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Ammoron"
+  ],
+  "relative_events": null
+}

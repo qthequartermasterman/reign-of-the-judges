@@ -1,0 +1,26 @@
+{
+  "name": "Lamanite Strength and Defensive Positioning",
+  "description": "The Lamanites, aware of the increased strength in Antipus's army, were compelled by the orders of Ammoron to not come against the city of Judea, or against the Nephites, to battle, thus preserving the Nephite army.",
+  "sources": [
+    "Alma 56:18-19"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Judea",
+    "description": "Against which the Lamanites were commanded not to battle."
+  },
+  "participants": [
+    "Ammoron",
+    "Antipus",
+    "Lamanites",
+    "Nephite army"
+  ],
+  "relative_events": null
+}

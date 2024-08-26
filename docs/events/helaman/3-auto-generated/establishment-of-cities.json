@@ -1,0 +1,21 @@
+{
+  "name": "Establishment of Cities",
+  "description": "The people in the land northward built many cities of wood and cement, enabled by the resources they received through shipping.",
+  "sources": [
+    "Helaman 3:11"
+  ],
+  "date": {
+    "year": 46,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land Northward",
+    "description": "The region where the cities were built."
+  },
+  "participants": [],
+  "relative_events": null
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Supply of provisions and reinforcements",
+  "description": "At the commencement of the twenty-ninth year, Helaman received a supply of provisions and an addition of six thousand men to his army from the land of Zarahemla, along with sixty of the sons of the Ammonites who came to join the two thousand soldiers.",
+  "sources": [
+    "Alma 57:6"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": "from the land of Zarahemla, and from the land round about"
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

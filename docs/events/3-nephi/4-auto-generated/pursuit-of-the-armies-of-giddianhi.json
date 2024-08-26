@@ -1,0 +1,32 @@
+{
+  "name": "Pursuit of the Armies of Giddianhi",
+  "description": "After their victory, Gidgiddoni commanded his armies to pursue the retreating armies of Giddianhi as far as the borders of the wilderness, and they did not spare any that fell into their hands. Giddianhi was pursued and finally slain as he fled from the battle. The Nephite armies then returned to their place of security.",
+  "sources": [
+    "3 Nephi 4:13-15"
+  ],
+  "date": {
+    "year": 19,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Borders of the wilderness",
+    "description": null
+  },
+  "participants": [
+    "Giddianhi",
+    "Gidgiddoni",
+    "Nephites"
+  ],
+  "relative_events": {
+    "before": [
+      "The siege by Zemnarihah"
+    ],
+    "after": [
+      "Giddianhi is slain"
+    ]
+  }
+}

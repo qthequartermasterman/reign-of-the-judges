@@ -1,0 +1,25 @@
+{
+  "name": "Flight of Samuel the Lamanite",
+  "description": "After being threatened by the people who could not harm him, Samuel cast himself down from the wall and fled to his own country, where he began to preach among his own people. He was never heard of again among the Nephites.",
+  "sources": [
+    "Helaman 16:7-8"
+  ],
+  "date": {
+    "year": 86,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Samuel the Lamanite"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Preaching of Samuel the Lamanite"
+    ]
+  }
+}

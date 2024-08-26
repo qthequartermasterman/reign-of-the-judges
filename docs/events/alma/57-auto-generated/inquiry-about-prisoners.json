@@ -1,0 +1,21 @@
+{
+  "name": "Inquiry about prisoners",
+  "description": "After taking care of the wounded and burying their dead, Helaman inquired of Gid about the prisoners who were supposed to be taken to Zarahemla.",
+  "sources": [
+    "Alma 57:28"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Gid"
+  ],
+  "relative_events": null
+}

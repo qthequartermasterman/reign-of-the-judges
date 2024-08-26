@@ -1,0 +1,26 @@
+{
+    "name": "Jesus Christ Descends from Heaven to Minister unto the Nephites",
+    "description": "After the destructions and the manifestation of Christ, Jesus Christ descends from heaven to minister unto the Nephites.",
+    "sources": [
+        "3 Nephi 11-28"
+    ],
+    "date": {
+        "year": 34,
+        "month": null,
+        "day": null,
+        "calendar_system": "after-christ",
+        "miscellaneous": "in the ending of the thirty-fourth year"
+    },
+    "end_date": null,
+    "location": {
+        "name": "Bountiful",
+        "description": "At the temple in Bountiful"
+    },
+    "participants": [
+        "Jesus Christ",
+        "Nephi",
+        "Lamanites",
+        "Nephites"
+    ],
+    "relative_events": null
+}

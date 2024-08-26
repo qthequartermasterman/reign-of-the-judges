@@ -1,0 +1,20 @@
+{
+  "name": "Death of Helaman",
+  "description": "Helaman died in the 35th year of the reign of the judges over the people of Nephi.",
+  "sources": [
+    "Alma 62:52"
+  ],
+  "date": {
+    "year": 35,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

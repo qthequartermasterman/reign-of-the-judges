@@ -1,0 +1,24 @@
+{
+  "name": "Moronihah sends Lehi to confront the Lamanites",
+  "description": "Moronihah, upon learning of the Nephite losses, sent Lehi with an army to confront the Lamanites before they could reach Bountiful.",
+  "sources": [
+    "Helaman 1:28"
+  ],
+  "date": {
+    "year": 41,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Bountiful",
+    "description": "A location the Nephites aimed to protect."
+  },
+  "participants": [
+    "Moronihah",
+    "Lehi"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Zerahemnah's Surrender",
+  "description": "Seeing inevitable defeat, Zerahemnah surrenders and agrees to the covenant of peace, ending the battle.",
+  "sources": [
+    "Alma 44:19-20"
+  ],
+  "date": {
+    "year": 18,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Battlefield between Nephites and Lamanites",
+    "description": null
+  },
+  "participants": [
+    "Zerahemnah",
+    "Moroni"
+  ],
+  "relative_events": null
+}

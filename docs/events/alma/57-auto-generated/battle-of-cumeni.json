@@ -1,0 +1,30 @@
+{
+  "name": "Battle of Cumeni",
+  "description": "Helaman's forces, particularly those two thousand and sixty young men, fought most desperately against the Lamanites and were firm before them. They administered death unto all those who opposed them. As the remainder of the army was about to give way, these young men were undaunted and obeyed every command, attributing their success to their faith and the teachings of their mothers. Their valor led to a great victory driving the Lamanites back to the city of Manti.",
+  "sources": [
+    "Alma 57:19-22"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Manti",
+    "description": "the city to which the Lamanites were driven back."
+  },
+  "participants": [
+    "Helaman",
+    "the 2060 young men",
+    "Lamanites"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "The battle of Manti"
+    ]
+  }
+}

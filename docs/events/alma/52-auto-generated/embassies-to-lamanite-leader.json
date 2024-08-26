@@ -1,0 +1,19 @@
+{
+  "name": "Embassies to Lamanite leader",
+  "description": "Moroni sends embassies to Jacob, the leader of the Lamanites at Mulek, inviting him to battle.",
+  "sources": null,
+  "date": {
+    "year": 28,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni",
+    "Jacob"
+  ],
+  "relative_events": null
+}

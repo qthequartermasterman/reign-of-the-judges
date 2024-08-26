@@ -1,0 +1,23 @@
+{
+  "name": "Return to City of Judea",
+  "description": "After the battle, Helaman sent the prisoners to the land of Zarahemla for safekeeping and returned to the city of Judea with the remainder of his troops, which included the stripling Ammonites he commanded.",
+  "sources": [
+    "Alma 56:57"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Judea",
+    "description": null
+  },
+  "participants": [
+    "Helaman"
+  ],
+  "relative_events": null
+}

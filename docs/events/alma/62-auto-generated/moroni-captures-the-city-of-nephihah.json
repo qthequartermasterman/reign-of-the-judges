@@ -1,0 +1,24 @@
+{
+  "name": "Moroni captures the city of Nephihah",
+  "description": "Moroni successfully captured the city of Nephihah by having his men lower themselves into the city at night using strong cords and ladders. When morning came, the Lamanites were alarmed to find Moroni's men inside the city and fled in fear. Moroni then led his men to chase the fleeing Lamanites, killing many and taking others prisoner, ultimately reclaiming the city without any losses to his own men.",
+  "sources": [
+    "Alma 62:22-26"
+  ],
+  "date": {
+    "year": 31,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "city of Nephihah",
+    "description": "near the city of Nephihah"
+  },
+  "participants": [
+    "Moroni",
+    "Pahoran"
+  ],
+  "relative_events": null
+}

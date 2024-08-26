@@ -1,0 +1,24 @@
+{
+  "name": "Invasion by Coriantumr",
+  "description": "In the forty-first year of the reign of the judges, the Lamanites, led by Coriantumr, gathered an innumerable army equipped with various weapons to battle against the Nephites.",
+  "sources": [
+    "Helaman 1:14-15"
+  ],
+  "date": {
+    "year": 41,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Coriantumr",
+    "Tubaloth"
+  ],
+  "relative_events": null
+}

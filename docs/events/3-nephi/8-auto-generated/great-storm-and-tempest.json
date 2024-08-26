@@ -1,0 +1,21 @@
+{
+  "name": "Great storm and tempest",
+  "description": "A great storm arose that was unprecedented in the land, accompanied by a terrible tempest, thunder, lightnings, and a significant earthquake which caused great destruction in the cities and land, including the burning of the city of Zarahemla and the sinking of the city of Moroni into the sea.",
+  "sources": [
+    "3 Nephi 8:5-14"
+  ],
+  "date": {
+    "year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": "The city was set on fire during the storm."
+  },
+  "participants": null,
+  "relative_events": null
+}

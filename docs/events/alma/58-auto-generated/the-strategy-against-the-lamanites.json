@@ -1,0 +1,25 @@
+{
+  "name": "The Strategy Against the Lamanites",
+  "description": "Helaman devised a plan to ambush the Lamanites by retreating into the wilderness, allowing Gid and Teomner to secretly position themselves and cut off the spies of the Lamanites, recovering the city of Manti without shedding blood. The plan involved Gid and Teomner hiding with their men and then attacking after the Lamanites had passed by, successfully taking the city of Manti after the Lamanite army had been led away into the wilderness.",
+  "sources": [
+    "Alma 58:16-28"
+  ],
+  "date": {
+    "year": 29,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Manti",
+    "description": null
+  },
+  "participants": [
+    "Helaman",
+    "Gid",
+    "Teomner"
+  ],
+  "relative_events": null
+}

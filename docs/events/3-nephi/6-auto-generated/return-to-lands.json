@@ -1,0 +1,21 @@
+{
+  "name": "Return to Lands",
+  "description": "The people of the Nephites returned to their own lands with their families, flocks, herds, and all belongings in the twenty-sixth year of the reign of the judges.",
+  "sources": [
+    "3 Nephi 6:1"
+  ],
+  "date": {
+    "year": 26,
+    "month": null,
+    "day": null,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Land of Nephi",
+    "description": "The lands of the Nephites, both north and south."
+  },
+  "participants": null,
+  "relative_events": null
+}

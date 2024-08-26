@@ -1,0 +1,24 @@
+{
+  "name": "Murder of Pahoran",
+  "description": "Kishkumen, sent by supporters of Paanchi, assassinated Pahoran while he sat on the judgment-seat. Following the murder, the conspirators, including Kishkumen, entered into a covenant, swearing secrecy about the act. Kishkumen was able to escape capture as he was in disguise, and he mingled with the people to avoid being found.",
+  "sources": [
+    "Helaman 1:9-12"
+  ],
+  "date": {
+    "year": 40,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "City of Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Pahoran",
+    "Kishkumen"
+  ],
+  "relative_events": null
+}

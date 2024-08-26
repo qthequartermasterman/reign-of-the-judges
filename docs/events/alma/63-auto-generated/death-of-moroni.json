@@ -1,0 +1,20 @@
+{
+  "name": "Death of Moroni",
+  "description": "Moroni died in the thirty-sixth year of the reign of the judges, marking the end of that year.",
+  "sources": [
+    "Alma 63:3"
+  ],
+  "date": {
+    "year": 36,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Moroni"
+  ],
+  "relative_events": null
+}

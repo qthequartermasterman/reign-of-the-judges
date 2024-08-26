@@ -1,0 +1,21 @@
+{
+  "name": "Strife and Preaching",
+  "description": "In the seventy and ninth year, much strife began among the people. Nephi and Lehi, along with many of their brethren who understood the true points of doctrine, received many revelations daily. They preached to the people, which led to the cessation of the strife within that same year.",
+  "sources": [
+    "Helaman 11:23"
+  ],
+  "date": {
+    "year": 79,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Nephi",
+    "Lehi"
+  ],
+  "relative_events": null
+}

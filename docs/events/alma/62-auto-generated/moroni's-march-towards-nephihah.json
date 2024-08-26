@@ -1,0 +1,24 @@
+{
+  "name": "Moroni's march towards Nephihah",
+  "description": "Moroni and Pahoran, leaving a large body of men in the land of Zarahemla, marched towards the land of Nephihah with a large body of men, determined to overthrow the Lamanites in that city.",
+  "sources": [
+    "Alma 62:14"
+  ],
+  "date": {
+    "year": 31,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "land of Nephihah",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Pahoran"
+  ],
+  "relative_events": null
+}

@@ -1,0 +1,18 @@
+{
+  "name": "War with the Lamanites",
+  "description": "In the eightieth year of the reign of the judges, a war began between dissenters who became Lamanites and their brethren, committing murder and plunder. These dissenters had previously gone over to the Lamanites and taken upon themselves the name of Lamanites. The war was provoked by anger stirred up by these dissenters among the Lamanites.",
+  "sources": [
+    "Helaman 11:24"
+  ],
+  "date": {
+    "year": 80,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": null,
+  "relative_events": null
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Darkness for three days",
+  "description": "Following the catastrophe, thick darkness enveloped the land for three days, resulting in great mourning and lamentation among the people due to the destruction and loss of life. During this period, no light was visible, and the darkness was felt by the inhabitants.",
+  "sources": [
+    "3 Nephi 8:20-23"
+  ],
+  "date": {
+    "year": 34,
+    "month": 1,
+    "day": 4,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 34,
+    "month": 1,
+    "day": 7,
+    "calendar_system": "after-christ",
+    "miscellaneous": null
+  },
+  "location": null,
+  "participants": null,
+  "relative_events": {
+    "after": ["destruction-of-cities.json", "great-storm-and-tempest.json"]
+  }
+}

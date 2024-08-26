@@ -1,0 +1,21 @@
+{
+  "name": "Helaman's Death and Nephi's Reign",
+  "description": "In the fifty-third year of the reign of the judges, Helaman died, and his eldest son Nephi began to reign in his stead, upholding justice and God's commandments.",
+  "sources": [
+    "Helaman 3:37"
+  ],
+  "date": {
+    "year": 53,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Helaman",
+    "Nephi"
+  ],
+  "relative_events": null
+}

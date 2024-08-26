@@ -1,0 +1,30 @@
+{
+  "name": "Korihor in Gideon",
+  "description": "Korihor preaches in the land of Gideon, but is taken and bound and brought before the high priest Giddonah and the chief judge.",
+  "sources": [
+    "Alma 30:21-29"
+  ],
+  "date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": {
+    "year": 17,
+    "month": null,
+    "day": null,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "location": {
+    "name": "Gideon",
+    "description": null
+  },
+  "participants": [
+    "Korihor",
+    "Giddonah"
+  ],
+  "relative_events": null
+}

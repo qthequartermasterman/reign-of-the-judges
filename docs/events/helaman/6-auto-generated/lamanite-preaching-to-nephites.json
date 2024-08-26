@@ -1,0 +1,23 @@
+{
+  "name": "Lamanite preaching to Nephites",
+  "description": "Many Lamanites came down into the land of Zarahemla to declare their conversion, exhorting the Nephites to faith and repentance.",
+  "sources": [
+    "Helaman 6:4"
+  ],
+  "date": {
+    "year": 62,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Lamanites"
+  ],
+  "relative_events": null
+}

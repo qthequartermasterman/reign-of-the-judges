@@ -1,0 +1,25 @@
+{
+  "name": "Moroni pursues the fleeing Lamanites",
+  "description": "Moroni and his army pursued the fleeing Lamanites from city to city. The Lamanites were frightened and fled from Moroni's army, eventually being pursued by Lehi and Teancum, who drove them to the borders by the sea, specifically to the land of Moroni.",
+  "sources": [
+    "Alma 62:31-32"
+  ],
+  "date": {
+    "year": 31,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "land of Moroni",
+    "description": "by the seashore"
+  },
+  "participants": [
+    "Moroni",
+    "Lehi",
+    "Teancum"
+  ],
+  "relative_events": null
+}

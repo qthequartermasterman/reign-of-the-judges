@@ -1,0 +1,21 @@
+{
+  "name": "Death of Amalickiah",
+  "description": "Amalickiah is found dead in his tent by the Lamanites on the first morning of the first month of the twenty-sixth year.",
+  "sources": [
+    "Alma 52:1"
+  ],
+  "date": {
+    "year": 26,
+    "month": 1,
+    "day": 1,
+    "calendar_system": null,
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": null,
+  "participants": [
+    "Amalickiah",
+    "Lamanites"
+  ],
+  "relative_events": null
+}

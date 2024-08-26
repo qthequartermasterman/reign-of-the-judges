@@ -1,0 +1,30 @@
+{
+  "name": "Moroni's communication to Pahoran",
+  "description": "Moroni sent an epistle to Pahoran requesting that he gather men to support Helaman's armies, in order to help maintain the lands Helaman had regained.",
+  "sources": [
+    "Alma 59:3"
+  ],
+  "date": {
+    "year": 30,
+    "month": null,
+    "day": null,
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": null
+  },
+  "end_date": null,
+  "location": {
+    "name": "Zarahemla",
+    "description": null
+  },
+  "participants": [
+    "Moroni",
+    "Pahoran",
+    "Helaman"
+  ],
+  "relative_events": {
+    "before": null,
+    "after": [
+      "Moroni receives Helaman's epistle"
+    ]
+  }
+}
