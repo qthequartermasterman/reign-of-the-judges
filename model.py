@@ -6,11 +6,12 @@ from __future__ import annotations
 
 from enum import Enum
 from typing import Any, List, Optional
+import pydantic
 from uuid import UUID
 
 from pydantic import BaseModel, Field, model_validator
 import magentic
-
+import functools
 
 class Location(BaseModel):
     # model_config = magentic.ConfigDict(openai_strict=True)
@@ -19,6 +20,9 @@ class Location(BaseModel):
     description: str | None = Field(
         None, description='A description of the location.', examples=["South of the land of Shilom", "North of the land of Zarahemla", "East of the land of Zarahemla", "West of the land of Zarahemla"]
     )
+
+    def __str__(self) -> str:
+        return self.name + (f" ({self.description})" if self.description else '')
 
 
 class RelativeEvents(BaseModel):
@@ -45,8 +49,10 @@ class CalendarSystem(Enum):
     """Year 1 is the year that Lehi left Jerusalem. Year 600 corresponds to Christ's birth. Only occasionally used during the Books of Alma, Helaman, or 3 Nephi."""
 
 
+@functools.total_ordering
 class Date(BaseModel):
     # model_config = magentic.ConfigDict(openai_strict=True)
+    model_config = pydantic.ConfigDict(frozen=True)
     
     year: int | None = Field(None, description='The year of the event.')
     month: int | None = Field(None, description='The month of the event.')
@@ -58,6 +64,51 @@ class Date(BaseModel):
         None, description='Any additional information about the date', examples=["In the commencement", "In the end", "as the year ended", "the spring", "the summer", "the fall", "the winter"]
     )
 
+    @property
+    def year_after_reign_of_the_judges(self) -> int:
+        if self.calendar_system == CalendarSystem.reign_of_the_judges:
+            return self.year
+        if self.calendar_system == CalendarSystem.after_christ:
+            return self.year + 91
+        if self.calendar_system == CalendarSystem.after_lehi:
+            return self.year - 600
+
+    def __str__(self) -> str:
+        text = f"Year {self.year_after_reign_of_the_judges}"
+        if self.month is not None:
+            text += f" Month {self.month}"
+        if self.day is not None:
+            text += f" Day {self.day}"
+        if self.calendar_system == CalendarSystem.after_christ:
+            text += f" (Year {self.year} After Christ)"
+        elif self.calendar_system == CalendarSystem.after_lehi:
+            text += f" (Year {self.year} After Lehi)"
+        return text
+
+
+    def __lt__(self, other: Date) -> bool:
+        if not isinstance(other, Date):
+            return NotImplemented
+        return (self.year_after_reign_of_the_judges, self.month, self.day) < (other.year_after_reign_of_the_judges, other.month, other.day)
+        # if self.year is None or other.year is None:
+        #     return NotImplemented
+        # if self.year < other.year:
+        #     return True
+        # if self.year > other.year:
+        #     return False
+        # assert self.year == other.year
+        # if self.month is None or other.month is None:
+        #     return NotImplemented
+        # if self.month < other.month:
+        #     return True
+        # if self.month > other.month:
+        #     return False
+        # assert self.month == other.month
+        # if self.day is None or other.day is None:
+        #     return NotImplemented
+        # return self.day < other.day
+
+
 
 class Event(BaseModel):
     """An event that occurred in the Book of Mormon."""
@@ -66,9 +117,9 @@ class Event(BaseModel):
     name: str = Field(None, description='The name of the event.')
     description: str = Field(None, description='A description of the event.')
     sources: list[str] = Field(
-        None, description='The sources that describe the event.', examples=[["Alma 56:1-57:36"], ["Helaman 1:1-2:14"], ["3 Nephi 1:1-2:10"], ["Alma 1:1-2:14", "Alma 3:1-4:14"]]
+        default_factory=list, description='The sources that describe the event.', examples=[["Alma 56:1-57:36"], ["Helaman 1:1-2:14"], ["3 Nephi 1:1-2:10"], ["Alma 1:1-2:14", "Alma 3:1-4:14"]]
     )
-    date: Date = Field(
+    date: Date | None = Field(
         None,
         description="The date of the event, if it occurred at a single, specific time, or the date of the event's beginning, if it was a period of time.", examples=[Date(year=1, month=1, day=1, calendar_system=CalendarSystem.reign_of_the_judges)]
     )
@@ -86,6 +137,9 @@ class Event(BaseModel):
     @model_validator(mode='after')
     def third_nephi_year(self):
         """The language model isn't always great at inferring the calendar system from the text. Some simple heuristics can help in 3rd Nephi."""
+        if self.date is None:
+            return self
+        
         if not any("3 Nephi" in source for source in self.sources):
             return self
 
