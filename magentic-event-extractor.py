@@ -3,7 +3,7 @@ import pyscripture.download
 import pydantic
 import pathlib
 
-import model
+import docs.scripts.model as model
 import tqdm
 
 
