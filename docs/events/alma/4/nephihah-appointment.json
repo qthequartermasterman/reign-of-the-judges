@@ -7,6 +7,6 @@
     "calendar_system": "reign-of-the-judges",
     "miscellaneous": "commencement"
   },
-  "location": { "description": "Zarahemla" },
+  "location": { "name": "Zarahemla" },
   "participants": ["Nephihah", "Alma"]
 }

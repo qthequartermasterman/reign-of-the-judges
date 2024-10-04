@@ -5,18 +5,38 @@
 from __future__ import annotations
 
 from enum import Enum
-from typing import Any, List, Optional
+from typing import Any, List, Optional, ClassVar
 import pydantic
 from uuid import UUID
 
 from pydantic import BaseModel, Field, model_validator
 import magentic
 import functools
+import re
+
+SCRIPTUREVERSE_REGEX = re.compile(r"(\d*\s*[a-zA-Z\s]+)\s*(\d+)(?::(\d+))?(\s*-\s*(\d+)(?:\s*([a-z]+)\s*(\d+))?(?::(\d+))?)?")
+BOOK_OF_MORMON_BOOK_INDICES =  {
+        "1 Nephi": 1,
+        "2 Nephi": 2,
+        "Jacob": 3,
+        "Enos": 4,
+        "Jarom": 5,
+        "Omni": 6,
+        "Words of Mormon": 7,
+        "Mosiah": 8,
+        "Alma": 9,
+        "Helaman": 10,
+        "3 Nephi": 11,
+        "4 Nephi": 12,
+        "Mormon": 13,
+        "Ether": 14,
+        "Moroni": 15
+    }
 
 class Location(BaseModel):
     # model_config = magentic.ConfigDict(openai_strict=True)
     
-    name: str = Field(None, description='The name of the location.', examples=["City of Zarahemla", "City of Gideon", "City of Mulek", "Land of Nephi", "Land of Jershon", "Waters of Mormon"])
+    name: str = Field(description='The name of the location.', examples=["City of Zarahemla", "City of Gideon", "City of Mulek", "Land of Nephi", "Land of Jershon", "Waters of Mormon"])
     description: str | None = Field(
         None, description='A description of the location.', examples=["South of the land of Shilom", "North of the land of Zarahemla", "East of the land of Zarahemla", "West of the land of Zarahemla"]
     )
@@ -25,13 +45,14 @@ class Location(BaseModel):
         return self.name + (f" ({self.description})" if self.description else '')
 
 
+
 class RelativeEvents(BaseModel):
     # model_config = magentic.ConfigDict(openai_strict=True)
     
-    before: list[str] | None = Field(
+    before: list[str | dict[str,str]] | None = Field(
         None, description='Events that this event is definitely before.'
     )
-    after: list[str] | None = Field(
+    after: list[str | dict[str,str]] | None = Field(
         None, description='Events that this event is definitely after.'
     )
 
@@ -86,37 +107,57 @@ class Date(BaseModel):
         return text
 
 
-    def __lt__(self, other: Date) -> bool:
+    def __lt__(self, other: Date|None) -> bool:
+        if other is None:
+            return False
         if not isinstance(other, Date):
             return NotImplemented
-        return (self.year_after_reign_of_the_judges, self.month, self.day) < (other.year_after_reign_of_the_judges, other.month, other.day)
-        # if self.year is None or other.year is None:
-        #     return NotImplemented
-        # if self.year < other.year:
-        #     return True
-        # if self.year > other.year:
-        #     return False
-        # assert self.year == other.year
-        # if self.month is None or other.month is None:
-        #     return NotImplemented
-        # if self.month < other.month:
-        #     return True
-        # if self.month > other.month:
-        #     return False
-        # assert self.month == other.month
-        # if self.day is None or other.day is None:
-        #     return NotImplemented
-        # return self.day < other.day
+        return (self.year_after_reign_of_the_judges or -1, self.month or -1, self.day or -1) < (other.year_after_reign_of_the_judges or -1, other.month or -1, other.day or -1)
 
 
+@functools.total_ordering
+class ScriptureReference(pydantic.BaseModel):
+    book:str = Field(None, description='The name of the book of scripture.', examples=["Alma", "3 Nephi", "Helaman", "Ether", "Moroni"])
+    start_chapter:int = Field(None, description='The chapter of the first verse of the reference.', examples=[1, 2, 3, 4, 5])
+    start_verse:int | None = Field(None, description='The verse of the first verse of the reference.', examples=[1, 2, 3, 4, 5])
+    end_chapter:int | None = Field(None, description='The chapter of the last verse of the reference.', examples=[1, 2, 3, 4, 5])
+    end_verse:int | None = Field(None, description='The verse of the last verse of the reference.', examples=[1, 2, 3, 4, 5])
+
+    def __lt__(self, other:ScriptureReference):
+        if not isinstance(other, ScriptureReference):
+            return NotImplemented
+        return (BOOK_OF_MORMON_BOOK_INDICES[self.book], self.start_chapter, self.start_verse or 0) < (BOOK_OF_MORMON_BOOK_INDICES[other.book], other.start_chapter, other.start_verse or 0)
+
+    def __eq__(self, value):
+        return self.book == value.book and self.start_chapter == value.start_chapter and self.start_verse == value.start_verse and self.end_chapter == value.end_chapter and self.end_verse == value.end_verse
+
+    def __hash__(self):
+        return hash((self.book, self.start_chapter, self.start_verse, self.end_chapter, self.end_verse))
+
+    @pydantic.field_validator("book")
+    @classmethod
+    def strip_whitespace(cls, value:str) -> str:
+        return value.strip()
+
+    def __repr__(self) -> str:
+        string = f"{self.book} {self.start_chapter}"
+        if self.start_verse is not None:
+            string += f":{self.start_verse}"
+        if self.end_chapter is not None:
+            string += f"-{self.end_chapter}"
+        if self.end_chapter is not None and self.end_verse is not None:
+            string += f":{self.end_verse}"
+        if self.end_verse is not None:
+            string += f"{self.end_verse}"    
+        return string
 
 class Event(BaseModel):
     """An event that occurred in the Book of Mormon."""
     # model_config = magentic.ConfigDict(openai_strict=True)
     
-    name: str = Field(None, description='The name of the event.')
-    description: str = Field(None, description='A description of the event.')
-    sources: list[str] = Field(
+    name: str = Field(description='The name of the event.')
+    description: str = Field(description='A description of the event.')
+    sources: list[ScriptureReference] = Field(
         default_factory=list, description='The sources that describe the event.', examples=[["Alma 56:1-57:36"], ["Helaman 1:1-2:14"], ["3 Nephi 1:1-2:10"], ["Alma 1:1-2:14", "Alma 3:1-4:14"]]
     )
     date: Date | None = Field(
@@ -133,6 +174,26 @@ class Event(BaseModel):
     relative_events: RelativeEvents | None = Field(
         None, description='Events that this event is definitely after or before.', examples=[RelativeEvents(before=["The death of Amalickiah"], after=["The death of Moroni"])]
     )
+
+    @pydantic.field_validator("sources", mode="before")
+    @classmethod
+    def validate_sources(cls, sources:list[str | ScriptureReference]) -> list[ScriptureReference]:
+        def validate_source(source:str | ScriptureReference) -> ScriptureReference:
+            if isinstance(source, ScriptureReference):
+                return source
+            match = SCRIPTUREVERSE_REGEX.match(source)
+            if match is None:
+                raise ValueError(f"Invalid scripture reference: {source}")
+            book = match.group(1)
+            start_chapter = int(match.group(2))
+            start_verse = int(match.group(3)) if match.group(3) else None
+            end_chapter = int(match.group(5)) if match.group(5) else None
+            end_verse = int(match.group(8)) if match.group(8) else None
+            return ScriptureReference(book=book, start_chapter=start_chapter, start_verse=start_verse, end_chapter=end_chapter, end_verse=end_verse)
+
+            
+        return [validate_source(source) for source in sources]
+        
 
     @model_validator(mode='after')
     def third_nephi_year(self):
@@ -155,4 +216,15 @@ class Event(BaseModel):
 
         return self
 
-        
+    def __lt__(self, other: Event) -> bool:
+        if not isinstance(other, Event):
+            return NotImplemented
+
+        if self.date is not None and other.date is not None:        
+            date_lt = self.date < other.date
+            if date_lt:
+                return True
+        # TODO: respect relative events
+        return sorted(self.sources)[0] < sorted(other.sources)[0]
+
+RelativeEvents.model_rebuild()
