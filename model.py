@@ -106,13 +106,28 @@ class Date(BaseModel):
             text += f" (Year {self.year} After Lehi)"
         return text
 
+    def __eq__(self, value):
+        return self.year == value.year and self.month == value.month and self.day == value.day and self.calendar_system == value.calendar_system
+
+    def __hash__(self):
+        return hash((self.year, self.month, self.day, self.calendar_system))
+
+    @pydantic.field_validator("calendar_system")
+    @classmethod
+    def infer_calendar_system(cls, calendar_system: CalendarSystem | None) -> CalendarSystem:
+        if calendar_system is not None:
+            return calendar_system
+        return CalendarSystem.reign_of_the_judges
 
     def __lt__(self, other: Date|None) -> bool:
         if other is None:
             return False
         if not isinstance(other, Date):
             return NotImplemented
-        return (self.year_after_reign_of_the_judges or -1, self.month or -1, self.day or -1) < (other.year_after_reign_of_the_judges or -1, other.month or -1, other.day or -1)
+        return (self.year_after_reign_of_the_judges or -1, self.month or 0, self.day or -1) < (other.year_after_reign_of_the_judges or -1, other.month or -1, other.day or -1)
+
+    def __eq__(self, value):
+        return 
 
 
 @functools.total_ordering
@@ -126,7 +141,7 @@ class ScriptureReference(pydantic.BaseModel):
     def __lt__(self, other:ScriptureReference):
         if not isinstance(other, ScriptureReference):
             return NotImplemented
-        return (BOOK_OF_MORMON_BOOK_INDICES[self.book], self.start_chapter, self.start_verse or 0) < (BOOK_OF_MORMON_BOOK_INDICES[other.book], other.start_chapter, other.start_verse or 0)
+        return (BOOK_OF_MORMON_BOOK_INDICES[self.book], self.start_chapter, self.start_verse or tuple(sorted(self.sources))) < (BOOK_OF_MORMON_BOOK_INDICES[other.book], other.start_chapter, other.start_verse or tuple(sorted(self.sources)))
 
     def __eq__(self, value):
         return self.book == value.book and self.start_chapter == value.start_chapter and self.start_verse == value.start_verse and self.end_chapter == value.end_chapter and self.end_verse == value.end_verse
@@ -139,17 +154,18 @@ class ScriptureReference(pydantic.BaseModel):
     def strip_whitespace(cls, value:str) -> str:
         return value.strip()
 
-    def __repr__(self) -> str:
+    def __str__(self) -> str:
         string = f"{self.book} {self.start_chapter}"
         if self.start_verse is not None:
             string += f":{self.start_verse}"
         if self.end_chapter is not None:
             string += f"-{self.end_chapter}"
         if self.end_chapter is not None and self.end_verse is not None:
-            string += f":{self.end_verse}"
+            string += ":"
         if self.end_verse is not None:
             string += f"{self.end_verse}"    
         return string
+
 
 class Event(BaseModel):
     """An event that occurred in the Book of Mormon."""
@@ -178,7 +194,11 @@ class Event(BaseModel):
     @pydantic.field_validator("sources", mode="before")
     @classmethod
     def validate_sources(cls, sources:list[str | ScriptureReference]) -> list[ScriptureReference]:
-        def validate_source(source:str | ScriptureReference) -> ScriptureReference:
+
+        return [cls.validate_source(source) for source in sources]
+
+    @staticmethod
+    def validate_source(source:str | ScriptureReference) -> ScriptureReference:
             if isinstance(source, ScriptureReference):
                 return source
             match = SCRIPTUREVERSE_REGEX.match(source)
@@ -191,27 +211,23 @@ class Event(BaseModel):
             end_verse = int(match.group(8)) if match.group(8) else None
             return ScriptureReference(book=book, start_chapter=start_chapter, start_verse=start_verse, end_chapter=end_chapter, end_verse=end_verse)
 
-            
-        return [validate_source(source) for source in sources]
-        
-
     @model_validator(mode='after')
     def third_nephi_year(self):
         """The language model isn't always great at inferring the calendar system from the text. Some simple heuristics can help in 3rd Nephi."""
         if self.date is None:
             return self
         
-        if not any("3 Nephi" in source for source in self.sources):
+        if not any("3 Nephi" in source.book for source in self.sources):
             return self
 
-        if self.date.calendar_system == CalendarSystem.reign_of_the_judges and self.date.year < 40:
+        if (self.date.calendar_system == CalendarSystem.reign_of_the_judges or self.date.calendar_system is None) and self.date.year < 40:
             self.date.calendar_system = CalendarSystem.after_christ
-        elif self.date.calendar_system == CalendarSystem.after_christ and self.date.year >= 40:
+        elif (self.date.calendar_system == CalendarSystem.after_christ or self.date.calendar_system is None) and self.date.year >= 40:
             self.date.calendar_system = CalendarSystem.reign_of_the_judges
 
-        if self.end_date and self.end_date.calendar_system == CalendarSystem.reign_of_the_judges and self.end_date.year < 40:
+        if self.end_date and (self.end_date.calendar_system == CalendarSystem.reign_of_the_judges or self.end_date.calendar_system is None) and self.end_date.year < 40:
             self.end_date.calendar_system = CalendarSystem.after_christ
-        elif self.end_date and self.end_date.calendar_system == CalendarSystem.after_christ and self.end_date.year >= 40:
+        elif self.end_date and (self.end_date.calendar_system == CalendarSystem.after_christ or self.end_date.calendar_system is None) and self.end_date.year >= 40:
             self.end_date.calendar_system = CalendarSystem.reign_of_the_judges
 
         return self
@@ -220,11 +236,13 @@ class Event(BaseModel):
         if not isinstance(other, Event):
             return NotImplemented
 
-        if self.date is not None and other.date is not None:        
-            date_lt = self.date < other.date
-            if date_lt:
-                return True
-        # TODO: respect relative events
-        return sorted(self.sources)[0] < sorted(other.sources)[0]
+        return (self.date or Date(year=-1), tuple(sorted(self.sources))) < (other.date or Date(year=-1), tuple(sorted(other.sources)))
+
+        # if self.date is not None and other.date is not None:        
+        #     date_lt = self.date < other.date
+        #     if date_lt:
+        #         return True
+        # # TODO: respect relative events
+        # return sorted(self.sources)[0] < sorted(other.sources)[0]
 
 RelativeEvents.model_rebuild()

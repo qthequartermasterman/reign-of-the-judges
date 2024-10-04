@@ -12,7 +12,9 @@
     "miscellaneous": null
   },
   "end_date": null,
-  "location": null,
+  "location": {
+    "name": "Jershon"
+  },
   "participants": null,
   "relative_events": null
 }

@@ -4,9 +4,9 @@
   "sources": [
     "Alma 35:4-5"
   ],
-  "date": null,
+  "date": {"calendar_system": "reign-of-the-judges","year": 17},
   "end_date": null,
-  "location": null,
+"location": {"name": "Antionum", "description": "east of the land of Zarahemla, which lay nearly bordering upon the seashore, which was south of the land of Jershon, which also bordered upon the wilderness south, which wilderness was full of the Lamanites."},
   "participants": null,
   "relative_events": null
 }

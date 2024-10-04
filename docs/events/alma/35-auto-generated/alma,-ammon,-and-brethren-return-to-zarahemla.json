@@ -4,9 +4,14 @@
   "sources": [
     "Alma 35:14"
   ],
-  "date": null,
   "end_date": null,
-  "location": null,
+  "date": {
+    "calendar_system": "reign-of-the-judges",
+    "year": 18
+  },
+  "location": {
+    "name": "Zarahemla"
+  },
   "participants": null,
   "relative_events": null
 }
