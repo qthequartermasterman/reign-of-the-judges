@@ -8,8 +8,8 @@
     "year": 18,
     "month": null,
     "day": null,
-    "calendar_system": null,
-    "miscellaneous": null
+    "calendar_system": "reign-of-the-judges",
+    "miscellaneous": "end"
   },
   "end_date": null,
   "location": null,

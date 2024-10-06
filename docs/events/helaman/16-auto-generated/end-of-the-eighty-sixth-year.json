@@ -1,6 +1,6 @@
 {
   "name": "End of the Eighty-Sixth Year",
-  "description": "The eightieth year of the reign of the judges ended with many people remaining in pride and wickedness, while a lesser part walked more circumspectly before God.",
+  "description": "The eightieth and sixth year of the reign of the judges ended with no one hearing from Samuel the Lamanite.",
   "sources": [
     "Helaman 16:9"
   ],
@@ -9,7 +9,7 @@
     "month": null,
     "day": null,
     "calendar_system": "reign-of-the-judges",
-    "miscellaneous": null
+    "miscellaneous": "end"
   },
   "end_date": null,
   "location": null,

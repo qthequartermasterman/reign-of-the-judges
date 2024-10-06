@@ -6,10 +6,10 @@
   ],
   "date": {
     "year": 17,
-    "month": 12,
+    "month": null,
     "day": null,
     "calendar_system": null,
-    "miscellaneous": null
+    "miscellaneous": "end"
   },
   "end_date": null,
   "location": null,

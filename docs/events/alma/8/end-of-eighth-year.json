@@ -4,6 +4,7 @@
     "sources": ["Alma 8:1"],
     "date": {
         "calendar_system": "reign-of-the-judges",
-        "year": 8
+        "year": 8,
+        "miscellaneous": "end"
     }
 }
