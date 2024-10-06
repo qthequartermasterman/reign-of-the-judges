@@ -1,6 +1,9 @@
-import docs.scripts.model as model
+from __future__ import annotations
+
+from docs.scripts import model
 import pathlib
 import json
+import mkdocs.plugins
 
 EVENTS_DIR = pathlib.Path("docs/events")
 
@@ -54,3 +57,34 @@ def extract_events_from_files(events_dir: pathlib.Path) -> list[model.Event]:
 
 
 markdown_table = events_to_markdown(extract_events_from_files(EVENTS_DIR))
+
+
+@mkdocs.plugins.event_priority(0)
+def on_page_markdown(
+    markdown: str,
+    page: mkdocs.plugins.Page,
+    config: mkdocs.plugins.MkDocsConfig,
+    **kwargs,
+):
+    """Add the map template to the page context.
+
+    This will place a map inside all pages that have a div with id="map".
+
+    Args:
+        context: The page context.
+        page: The page object.
+        config: The mkdocs config.
+
+    Returns:
+        The page context.
+    """
+    # Skip, if page is excluded
+    if page.file.inclusion.is_excluded():
+        return
+
+    tag = '<table id="timeline"></table>'
+
+    if tag in markdown:
+        markdown = markdown.replace(tag, markdown_table)
+
+    return markdown

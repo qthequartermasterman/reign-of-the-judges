@@ -93,7 +93,7 @@ repo_url: https://github.com/qthequartermasterman/reign-of-the-judges
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 nav:
-  - Welcome: index.md
+  - 'index.md'
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -397,7 +397,7 @@ theme:
 # | - https://www.mkdocs.org/user-guide/configuration/#extra                                               |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-extra:
+# extra:
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
   # | The social section allows you to set a list of entries which would be displayed in the footer of the |
@@ -412,9 +412,9 @@ extra:
   # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links              |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  social:
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Andre601/mkdocs-template'
+  # social:
+  #   - icon: 'fontawesome/brands/github'
+  #     link: 'https://github.com/Andre601/mkdocs-template'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -501,3 +501,6 @@ markdown_extensions:
   #- pymdownx.tabbed:
   #- pymdownx.tasklist:
   - pymdownx.tilde:
+
+hooks:
+  - docs/scripts/generate_timeline_table.py
