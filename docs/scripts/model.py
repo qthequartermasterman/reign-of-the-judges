@@ -32,6 +32,8 @@ BOOK_OF_MORMON_BOOK_INDICES = {
     "Moroni": 15,
 }
 
+END_OF_YEAR_WORDS = ["end", "ended", "endeth", "concluded", "conclusion", "concludeth"]
+BEGINNING_OF_YEAR_WORDS = ["begin", "began", "beginning", "beginneth", "commenced", "commences", "commenceth", "commencement", "start"]
 
 class Location(BaseModel):
     # model_config = magentic.ConfigDict(openai_strict=True)
@@ -163,16 +165,28 @@ class Date(BaseModel):
             return False
         if not isinstance(other, Date):
             return NotImplemented
+        
+        
         return (
             self.year_after_reign_of_the_judges or -1,
-            self.month or 0,
+            self.effective_month,
             self.day or -1,
         ) < (
             other.year_after_reign_of_the_judges or -1,
-            other.month or -1,
+            other.effective_month,
             other.day or -1,
         )
 
+    @property
+    def effective_month(self) -> int:
+        if self.month is None and self.miscellaneous:
+            if any(word in self.miscellaneous for word in BEGINNING_OF_YEAR_WORDS):
+                return -1
+            elif any(word in self.miscellaneous for word in END_OF_YEAR_WORDS):
+                return 12
+            else:
+                return 0
+        return self.month
 
 @functools.total_ordering
 class ScriptureReference(pydantic.BaseModel):
