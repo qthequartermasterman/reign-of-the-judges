@@ -169,11 +169,11 @@ class Date(BaseModel):
         
         return (
             self.year_after_reign_of_the_judges or -1,
-            self.effective_month,
+            self.effective_month or -1,
             self.day or -1,
         ) < (
             other.year_after_reign_of_the_judges or -1,
-            other.effective_month,
+            other.effective_month or -1,
             other.day or -1,
         )
 
